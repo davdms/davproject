@@ -73,7 +73,7 @@ print(a / b)
 # print(a > b)
 print(bool(a))
 print(bool(b))
-print('___________A__________')
+print('_____________________')
 
 
 # 2. Create a Color class. This will hold 3 instance variables, red, green, blue (RGB).
