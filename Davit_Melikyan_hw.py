@@ -89,7 +89,7 @@ print('_______________________')
 print('#VERSION 1')
 from colorit import *
 
-class Color:git push -u origin main
+class Color:
     def __init__(self, red, green, blue):
         if red in range(256) and green in range(256) and blue in range(256):
             self.red = red
