@@ -1,4 +1,4 @@
-g# 1. Create a custom integer class. The class should have one instance attribute as
+# 1. Create a custom integer class. The class should have one instance attribute as
 # its value. Now, your class must
 # satisfy the following criteria:
 #    a) we can use Python arithmetic operators to add, subtract, multiply and
