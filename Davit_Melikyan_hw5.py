@@ -57,7 +57,8 @@ class Atom:
         mylist = []
         mylist.append(self.name)
         mylist.append(other.name)
-        return mylist
+        return Molecule(mylist)
+
 
 class Molecule():
     def __init__(self, atomlist):
@@ -79,25 +80,26 @@ class Molecule():
         for i in range(len(self.atomlist)):
             mylist.append(self.atomlist[i])
         mylist.append(other.name)
-        return mylist
+        return Molecule(mylist)
 
     def __str__(self):
-        return f'Molecule - {self.atomlist}'
+        return f'Molecule - {"-".join(self.atomlist)}'
 
-myatom1 = Atom('H')
-print(myatom1)
 
-myatom2 = Atom('N')
-print(myatom2)
-
-myatom3 = Atom('P')
-print(myatom3)
-
-mymolecule = Molecule(myatom1 + myatom2)
-print(mymolecule)
-
-mymolecule2 = Molecule(mymolecule + myatom3)
-print(mymolecule2)
+# myatom1 = Atom('H')
+# print(myatom1)
+#
+# myatom2 = Atom('N')
+# print(myatom2)
+#
+# myatom3 = Atom('P')
+# print(myatom3)
+#
+# mymolecule = myatom1 + myatom2
+# print(mymolecule)
+#
+# mymolecule2 = mymolecule + myatom3
+# print(mymolecule2)
 
 
 # 2. Let's write a Music Player Class!
@@ -152,41 +154,33 @@ class Player:
     def show_current_song(self):
         pass
 
+
 class Playlist:
+    myplaylist = []
+
     def __init__(self, filename):
         if type(filename) is str:
             self.filename = filename
 
-    def fileopen(self, count):
-        with open(self.filename, 'r') as f:
-            while count > 0:
-                print(f.readline())
-                count -= 1
-
     def load_songs(self):
-        myplaylist = []
-        for i in song.split('	'):
-            myplaylist.append(i)
-        return myplaylist
+        with open(self.filename, 'r') as f:
+            for line in f.readlines():
+                name, artist, album, year = line.split('\t')
+                self.myplaylist.append(Song(name, artist, album, year))
 
-class Song(Playlist):
+
+class Song:
     def __init__(self, name, artist, album, year):
-        super().__init__(filename)
         self.name = name
         self.artist = artist
         self.album = album
         self.year = year
 
-    def songsplit(self):
-        myplaylist = super().load_songs()
-        self.album = myplaylist[1]
-        self.artist = myplaylist[0]
-        self.name = myplaylist[3]
-        self.year = myplaylist[2]
 
 my_playlist = Playlist('albums.txt')
+my_playlist.load_songs()
 
-Playlist.fileopen(my_playlist, 2)
+player = Player(my_playlist)
 
 
 # 3. Create a class named Length. The default unit for length is meter. The class must contain some conversions
@@ -212,11 +206,12 @@ Playlist.fileopen(my_playlist, 2)
 # Լրացուցիչ, կարող եք ավելացնել հավելյալ տրամաբանություն որտեղ ճիշտ կգտնեք։
 
 class Length:
+    valdict = {'metr': 1, 'feet': 0.3048, 'km': 1000, 'yard': 1093.6, 'mile': 0.62}
+
     def __init__(self, val, mylenght):
         if type(val) is int and type(mylenght) is str:
             self.mylenght = mylenght
             self.val = val
-            self.valdict = {'metr': 1,'feet': 0.3048, 'km': 1000, 'yard': 1093.6, 'mile': 0.62}
         else:
             raise TypeError
 
@@ -230,12 +225,13 @@ class Length:
 
     @staticmethod
     def checklenght(v):
-        if v not in {'feet', 'km', 'yard', 'mile'}:
+        if v not in Length.valdict.keys():
             raise TypeError('Please enter again')
         return v
 
     def __str__(self):
         return f'{self.val} {self.mylenght} is {self.val * self.valdict[self.mylenght]} metters'
+
 
 a = Length(5, 'feet')
 print(a)
