@@ -3,6 +3,8 @@ from flask import request
 from flask import render_template
 import psycopg2
 import sys
+import requests
+import csv
 
 app = Flask(__name__)
 
@@ -15,24 +17,36 @@ def registr():
     response = "<p>Registration</p>"
     return response
 
-@app.route("/users")
-def users():
-    response = "<p>Users</p>"
-    return response
-
 # @app.route("/users")
 # def users():
-#     answer = []
-#     with open('MOCK_DATA.csv', 'r') as f:
-#         for line in f.readlines():
-#             answer.append(line)
-#     return answer
+#     # response = "<p>Users</p>"
+#     conn = psycopg2.connect("dbname=web_db_1 user=postgres password=barevp host=localhost")
+#     cur = conn.cursor()
+#     cur.execute('select id, email from users')
+#     answer = cur.fetchone()
+#     response = f"<p>Users<br><br> {answer}</p>"
+#     return response
+
+@app.route("/users")
+def users():
+    file = open("MOCK_DATA.csv")
+    csvreader = csv.reader(file)
+    header = next(csvreader)
+    rows = []
+    for row in csvreader:
+        rows.append(row)
+    file.close()
+    return f"<p>{rows}</p>"
 
 
 @app.route("/users/<id>")
 def user(id):
-    response = f"<p>User information {id}</p>"
-    return response
+    file = open("MOCK_DATA.csv")
+    csvreader = csv.reader(file)
+    header = next(csvreader)
+    for row in csvreader:
+        if row[0] == id:
+            return f"<p>{row}</p>"
 
 if __name__ == "__main__":
     app.run()
