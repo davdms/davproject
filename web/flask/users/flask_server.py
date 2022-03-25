@@ -38,7 +38,6 @@ def users():
     file.close()
     return f"<p>{rows}</p>"
 
-
 @app.route("/users/<id>")
 def user(id):
     file = open("MOCK_DATA.csv")

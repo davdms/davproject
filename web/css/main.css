@@ -3,14 +3,14 @@
 	padding: 0;
 }
 
-body {
-	background-image: url({{ url_for ('static', filename = 'img/back2.jpg') }});
+/*body {*/
+/*	background-image: url(back2.jpg);
 	background-size: cover;
 	background-position: center;
-}
+}*/
 
-/*body {
-  background-image: url({{ url_for ('static', filename = 'img/back2.jpg') }});
+body {
+  background-image: url(back2.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -22,7 +22,7 @@ body {
   padding: 0 20px;
   font-weight: bold;
 }
-*/
+
 .imgsize{
 	width:1800;
 	height:800
@@ -31,16 +31,21 @@ body {
 h1{
 	text-align: center;
 	margin-bottom: 40px;
-	color:  	rgb(0,0,0)
+	color:  	#fff
 }
+a{
+	text-align: center;
+	margin-bottom: 20px;
+	color:  	#fff
+}
+
 
 .form-box{
 	width: 500px;
-	/*background rgba(124,252,0,0.8);*/
-	background-color: rgb(135,206,235);
-	margin:12% auto;
+	background: rgba(0,0,0,0.8);
+	margin: 12% auto;
 	padding: 50px 0;
-	color: rgb(0,0,255);
+	color: #fff;
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
 
 }
@@ -57,11 +62,11 @@ h1{
 	border: none;
 	outline: none;
 	background: transparent;
-	color: rgb(0,0,0);
+	color: #fff;
 }
 
 ::placeholder{
-	color: rgb(0,0,0);
+	color: #fff;
 }
 
 .login-btn{
@@ -70,10 +75,10 @@ h1{
 	display: block;
 	outline: none;
 	padding: 10px 0;
-	border: 1px solid rgb(0,0,0);
+	border: 1px solid #fff;
 	cursor: pointer;
 	background: transparent;
-	color: rgb(0,0,0);
+	color: #fff;
 	font-size: 16px;
 }
 
@@ -82,6 +87,6 @@ h1{
 	width: 80%;
 	border: none;
 	background: transparent;
-	color: rgb(0,0,0);
+	color: #fff;
 
 }
