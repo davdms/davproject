@@ -1,0 +1,17 @@
+[
+  {
+    "post_id": 98,
+    "title": "HTML Tutorial",
+    "description": "HTML is the standard markup language for Web pages. \n                With HTML you can create your own Website. HTML is \n                easy to learn - You will enjoy it!"
+  },
+  {
+    "post_id": 2,
+    "title": "Javascript Tutorial",
+    "description": "Javascript (JS) is a lightweight, interpreted, or \n        just-in-time compiled programming language with first-class functions."
+  },
+  {
+    "post_id": 6,
+    "title": "Python Tutorial",
+    "description": "Python is an interpreted high-level general-purpose programming language."
+  }
+]

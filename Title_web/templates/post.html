@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Post ID information</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+	<p> <a1> {{ thepost['title'] }} </a1></p>
+	<p> <a2> {{ thepost['description'] }} </a2></p>
+</body>
+<a href="{{ url_for('posts')}}"> Go back to the all posts </a>
+</html>

@@ -1,0 +1,21 @@
+a1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+a2{
+	font-size: 20px;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Abril Fatface', serif;
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(0, 89, 255);
+}
+
+body{
+	margin-left: 50px;
+	margin-top: 40px;
+}

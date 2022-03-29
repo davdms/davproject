@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+	<h1>Posts Info</h1>
+	<form action="{{ url_for('posts')}}" method="get">
+		<input placeholder="Search posts" name="q" type="text" value="{{q}}">
+    	<input type="submit" value="Search">
+	</form>
+	{% for val in posts %}
+	<p> <a1> {{ val['title'] }} </a1></p>
+	<p> <a2> {{ val['description'] }} </a2></p>
+	<p><a href="{{ url_for('post', post_id = val['post_id'])}}"> Read more </a></p>
+	{% endfor %}
+
+</body>
