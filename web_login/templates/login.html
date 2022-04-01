@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href='../static/css/main.css'>
+    <style class = "error-text"></style> 
+</head>
+<body>
+<div class = "form-box">
+<h1>Login</h1>
+<form action="{{ url_for('login') }}" method="POST">
+    <div class="input-box">
+        <label for="username"></label>
+        <input type="text" placeholder="Username" name="username" id="username" value="{{form_data.get('username', '')}}">
+        {% if errors.get('username') %}
+        <p class="error-text">{{errors.get('username')}}</p>
+        {% endif %}
+    </div>
+
+    <div class="input-box">
+        <label for="password"></label>
+        <input type="password" placeholder="Password" name="password" id="password">
+        {% if errors.get('password') %}
+        <p class="error-text">{{errors.get('password', '')}}</p>
+        {% endif %}
+    </div>
+
+    {% if errors.get('form_error') %}
+    <p class="error-text">{{errors.get('form_error')}}</p>
+    {% endif %}
+
+    <input type="submit" value="Login" class="login-btn">
+    <a href="{{ url_for('signup')}}"> Create account </a>
+
+</form>
+</div>
+
+</body>
+</html>

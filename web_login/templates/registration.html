@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create account</title>
+    <link rel="stylesheet" type="text/css" href='../static/css/main.css'>
+    <style class = "error-text"></style>
+</head>
+<body>
+	<div class = "form-box">
+	<h1>Create account</h1>
+
+<form action="{{ url_for('signup') }}" method="POST">
+
+<h2>Registration Form</h2>
+
+<!-- Text input-->
+
+<div class="input-box">
+  <label for='username'><b></b></label>  
+  <input  name="username" placeholder="Username" type="text" id="username" value="{{form_data.get('username', '')}}">
+          {% if errors.get('username') %}
+        <p class="error-text">{{errors.get('username')}}</p>
+        {% endif %}
+</div>
+
+<div class="input-box">
+   <label for='password'><b></b></label>  
+  <input  name="password" placeholder="Password" type="password" id="password">
+          {% if errors.get('password') %}
+        <p class="error-text">{{errors.get('password', '')}}</p>
+        {% endif %}
+</div>
+
+<div class="input-box">
+   <label for='confpsw'><b></b></label>  
+  <input  name="confpsw" placeholder="Confirm Password" type="password">
+          {% if errors.get('conf_password') %}
+        <p class="error-text">{{errors.get('conf_password', '')}}</p>
+        {% endif %}
+</div>
+
+    {% if errors.get('form_error') %}
+    <p class="error-text">{{errors.get('form_error')}}</p>
+    {% endif %}
+
+<input type="submit" value="Register" class="registr-btn">
+<p>Already have an account? <a href="{{ url_for('login') }}">Sign in</a>.</p>
+</div>
+
+</form>
+
+</body>
+</html>
