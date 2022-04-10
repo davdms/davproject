@@ -1,0 +1,2001 @@
+id,Name,Country,Score
+1,Harvard University,USA,100
+2,Massachusetts Institute of Technology,USA,96.7
+3,Stanford University,USA,95.1
+4,University of Cambridge,United Kingdom,94.1
+5,University of Oxford,United Kingdom,93.3
+6,Princeton University,USA,92.6
+7,Columbia University,USA,92.0
+8,University of Chicago,USA,91.5
+9,University of Pennsylvania,USA,91.1
+10,Yale University,USA,90.7
+11,California Institute of Technology,USA,90.4
+12,University of California, Berkeley,USA,90.1
+13,University of Tokyo,Japan,89.8
+14,Cornell University,USA,89.5
+15,University of Michigan, Ann Arbor,USA,89.2
+16,Johns Hopkins University,USA,89.0
+17,Northwestern University,USA,88.8
+18,University of California, Los Angeles,USA,88.6
+19,University College London,United Kingdom,88.4
+20,Duke University,USA,88.2
+21,PSL University,France,88.0
+22,University of Illinois at Urbana–Champaign,USA,87.8
+23,University of Washington - Seattle,USA,87.6
+24,University of Toronto,Canada,87.5
+25,University of Wisconsin–Madison,USA,87.3
+26,New York University,USA,87.2
+27,McGill University,Canada,87.0
+28,Kyoto University,Japan,86.9
+29,ETH Zurich,Switzerland,86.8
+30,Imperial College London,United Kingdom,86.6
+31,Seoul National University,South Korea,86.5
+32,Paris-Saclay University,France,86.4
+33,University of Texas at Austin,USA,86.3
+34,University of California, San Diego,USA,86.1
+35,Karolinska Institute,Sweden,86.0
+36,Sorbonne University,France,85.9
+37,University of Copenhagen,Denmark,85.8
+38,University of California, San Francisco,USA,85.7
+39,University of North Carolina at Chapel Hill,USA,85.6
+40,Dartmouth College,USA,85.5
+41,Institut Polytechnique de Paris,France,85.4
+42,University of Paris,France,85.3
+43,King's College London,United Kingdom,85.2
+44,Ludwig Maximilian University of Munich,Germany,85.1
+45,University of Edinburgh,United Kingdom,85.0
+46,University of Minnesota - Twin Cities,USA,85.0
+47,Washington University in St. Louis,USA,84.9
+48,University of British Columbia,Canada,84.8
+49,Rockefeller University,USA,84.7
+50,Rutgers University–New Brunswick,USA,84.6
+51,University of Southern California,USA,84.5
+52,University of California, Davis,USA,84.5
+53,Vanderbilt University,USA,84.4
+54,Pennsylvania State University,USA,84.3
+55,Free University of Berlin,Germany,84.2
+56,Ohio State University,USA,84.2
+57,University of Manchester,United Kingdom,84.1
+58,Tsinghua University,China,84.0
+59,Peking University,China,84.0
+60,Humboldt University of Berlin,Germany,83.9
+61,Purdue University,USA,83.8
+62,University of Texas Southwestern Medical Center,USA,83.8
+63,University of Melbourne,Australia,83.7
+64,Hebrew University of Jerusalem,Israel,83.6
+65,University of Zurich,Switzerland,83.6
+66,Brown University,USA,83.5
+67,Weizmann Institute of Science,Israel,83.4
+68,University of Colorado Boulder,USA,83.4
+69,University of Virginia,USA,83.3
+70,Heidelberg University,Germany,83.3
+71,Utrecht University,Netherlands,83.2
+72,University of Pittsburgh,USA,83.1
+73,University of Chinese Academy of Sciences,China,83.1
+74,Texas A&M University, College Station,USA,83.0
+75,University of Maryland, College Park,USA,83.0
+76,Georgia Institute of Technology,USA,82.9
+77,University of Oslo,Norway,82.9
+78,Osaka University,Japan,82.8
+79,University of Birmingham,United Kingdom,82.8
+80,Technical University of Munich,Germany,82.7
+81,University of Alberta,Canada,82.6
+82,University of California, Irvine,USA,82.6
+83,University of Rochester,USA,82.5
+84,University of Amsterdam,Netherlands,82.5
+85,Carnegie Mellon University,USA,82.4
+86,University of Florida,USA,82.4
+87,Leiden University,Netherlands,82.3
+88,Uppsala University,Sweden,82.3
+89,National University of Singapore,Singapore,82.2
+90,National Taiwan University,Taiwan,82.2
+91,University of Bristol,United Kingdom,82.2
+92,University of Göttingen,Germany,82.1
+93,University of Arizona,USA,82.1
+94,Boston University,USA,82.0
+95,University of California, Santa Barbara,USA,82.0
+96,Erasmus University Rotterdam,Netherlands,81.9
+97,Keio University,Japan,81.9
+98,University of Sydney,Australia,81.8
+99,University of Geneva,Switzerland,81.8
+100,University of Basel,Switzerland,81.8
+101,University of Leeds,United Kingdom,81.7
+102,Shanghai Jiao Tong University,China,81.7
+103,University of Groningen,Netherlands,81.6
+104,École Polytechnique Fédérale de Lausanne,Switzerland,81.6
+105,University of São Paulo,Brazil,81.5
+106,University of Texas MD Anderson Cancer Center,USA,81.5
+107,Aarhus University,Denmark,81.5
+108,University of Tübingen,Germany,81.4
+109,University of Queensland,Australia,81.4
+110,Zhejiang University,China,81.3
+111,Indiana University Bloomington,USA,81.3
+112,University of Utah,USA,81.3
+113,Sapienza University of Rome,Italy,81.2
+114,University of New South Wales,Australia,81.2
+115,Fudan University,China,81.1
+116,KU Leuven,Belgium,81.1
+117,University of Southampton,United Kingdom,81.1
+118,University of Helsinki,Finland,81.0
+119,INSEAD,France,81.0
+120,University of Montreal,Canada,81.0
+121,Ghent University,Belgium,80.9
+122,University of Freiburg,Germany,80.9
+123,University of Bonn,Germany,80.9
+124,Emory University,USA,80.8
+125,Australian National University,Australia,80.8
+126,University of Glasgow,United Kingdom,80.7
+127,Baylor College of Medicine,USA,80.7
+128,Monash University,Australia,80.7
+129,Case Western Reserve University,USA,80.6
+130,Nagoya University,Japan,80.6
+131,University of Barcelona,Spain,80.6
+132,Tohoku University,Japan,80.5
+133,Goethe University Frankfurt,Germany,80.5
+134,Tufts University,USA,80.5
+135,University of Nottingham,United Kingdom,80.4
+136,Nanyang Technological University,Singapore,80.4
+137,University of Liverpool,United Kingdom,80.4
+138,Grenoble Alpes University,France,80.3
+139,University of Science and Technology of China,China,80.3
+140,KTH Royal Institute of Technology,Sweden,80.3
+141,Lund University,Sweden,80.3
+142,VU Amsterdam,Netherlands,80.2
+143,University of Bern,Switzerland,80.2
+144,Stockholm University,Sweden,80.2
+145,University of Iowa,USA,80.1
+146,Michigan State University,USA,80.1
+147,Rice University,USA,80.1
+148,University of Strasbourg,France,80.0
+149,University of Colorado Anschutz Medical Campus,USA,80.0
+150,University of Sheffield,United Kingdom,80.0
+151,Tokyo Institute of Technology,Japan,79.9
+152,Tel Aviv University,Israel,79.9
+153,Sun Yat-sen University,China,79.9
+154,Queen Mary University of London,United Kingdom,79.9
+155,Radboud University,Netherlands,79.8
+156,University of Western Australia,Australia,79.8
+157,Aix-Marseille University,France,79.8
+158,University of Massachusetts Amherst,USA,79.7
+159,Cardiff University,United Kingdom,79.7
+160,Huazhong University of Science and Technology,China,79.7
+161,Technion – Israel Institute of Technology,Israel,79.7
+162,Nanjing University,China,79.6
+163,Korea University,South Korea,79.6
+164,McMaster University,Canada,79.6
+165,University of Padova,Italy,79.5
+166,University of Hamburg,Germany,79.5
+167,Iowa State University,USA,79.5
+168,University of Montpellier,France,79.5
+169,Yonsei University,South Korea,79.4
+170,University of Notre Dame,USA,79.4
+171,University of Hong Kong,China,79.4
+172,Icahn School of Medicine at Mount Sinai,USA,79.4
+173,University of Gothenburg,Sweden,79.3
+174,University of Warwick,United Kingdom,79.3
+175,École nationale d'administration,France,79.3
+176,University of Milan,Italy,79.2
+177,University of Bologna,Italy,79.2
+178,Newcastle University,United Kingdom,79.2
+179,University of Alabama at Birmingham,USA,79.2
+180,Wageningen University & Research,Netherlands,79.1
+181,Arizona State University,USA,79.1
+182,Norwegian University of Science and Technology,Norway,79.1
+183,Western University,Canada,79.1
+184,University of Cologne,Germany,79.0
+185,University of Kansas,USA,79.0
+186,Autonomous University of Barcelona,Spain,79.0
+187,Chinese University of Hong Kong,China,79.0
+188,Waseda University,Japan,78.9
+189,University of Lausanne,Switzerland,78.9
+190,University of Calgary,Canada,78.9
+191,North Carolina State University,USA,78.9
+192,Sungkyunkwan University,South Korea,78.8
+193,University of Münster,Germany,78.8
+194,Lomonosov Moscow State University,Russia,78.8
+195,University of Connecticut,USA,78.8
+196,Technical University of Denmark,Denmark,78.8
+197,Université catholique de Louvain,Belgium,78.7
+198,Stony Brook University,USA,78.7
+199,Brandeis University,USA,78.7
+200,University of Waterloo,Canada,78.7
+201,University of Lisbon,Portugal,78.6
+202,University of Ottawa,Canada,78.6
+203,University of Würzburg,Germany,78.6
+204,University of Georgia,USA,78.6
+205,Xi'an Jiaotong University,China,78.5
+206,Harbin Institute of Technology,China,78.5
+207,University of Vienna,Austria,78.5
+208,Johannes Gutenberg University Mainz,Germany,78.5
+209,Yeshiva University,USA,78.5
+210,Technical University of Dresden,Germany,78.4
+211,RWTH Aachen University,Germany,78.4
+212,The Scripps Research Institute,USA,78.4
+213,University of Adelaide,Australia,78.4
+214,University of Illinois at Chicago,USA,78.3
+215,Wuhan University,China,78.3
+216,Kiel University,Germany,78.3
+217,University of Missouri–Columbia,USA,78.3
+218,Trinity College Dublin,Ireland,78.3
+219,Université libre de Bruxelles,Belgium,78.2
+220,Hokkaido University,Japan,78.2
+221,Claude Bernard University Lyon 1,France,78.2
+222,Xiamen University,China,78.2
+223,KAIST,South Korea,78.2
+224,Kyushu University,Japan,78.1
+225,Shandong University,China,78.1
+226,University of Miami,USA,78.1
+227,University of Erlangen–Nuremberg,Germany,78.1
+228,Georgetown University,USA,78.0
+229,Hong Kong University of Science and Technology,China,78.0
+230,University of Turin,Italy,78.0
+231,Tianjin University,China,78.0
+232,London School of Hygiene & Tropical Medicine,United Kingdom,78.0
+233,Charles University in Prague,Czech Republic,77.9
+234,Karlsruhe Institute of Technology,Germany,77.9
+235,P.N. Lebedev Physical Institute of the Russian Academy of Sciences,Russia,77.9
+236,University of Cincinnati,USA,77.9
+237,Wake Forest University,USA,77.9
+238,University of Naples Federico II,Italy,77.8
+239,Paul Sabatier University,France,77.8
+240,Sichuan University,China,77.8
+241,University of Sussex,United Kingdom,77.8
+242,University of California, Riverside,USA,77.8
+243,University of Bordeaux,France,77.7
+244,University of Texas Health Science Center at Houston,USA,77.7
+245,University of Leicester,United Kingdom,77.7
+246,University of Reading,United Kingdom,77.7
+247,Complutense University of Madrid,Spain,77.7
+248,Jilin University,China,77.6
+249,Nankai University,China,77.6
+250,Maastricht University,Netherlands,77.6
+251,University of Tennessee, Knoxville,USA,77.6
+252,HEC Paris,France,77.6
+253,South China University of Technology,China,77.6
+254,Virginia Commonwealth University,USA,77.5
+255,Colorado State University,USA,77.5
+256,Tongji University,China,77.5
+257,University of Houston,USA,77.5
+258,University of Florence,Italy,77.5
+259,Delft University of Technology,Netherlands,77.4
+260,Southeast University,China,77.4
+261,University of Tsukuba,Japan,77.4
+262,University of Auckland,New Zealand,77.4
+263,University of Exeter,United Kingdom,77.4
+264,National and Kapodistrian University of Athens,Greece,77.3
+265,University of Pisa,Italy,77.3
+266,City University of Hong Kong,China,77.3
+267,Hong Kong Polytechnic University,China,77.3
+268,Oregon Health & Science University,USA,77.3
+269,University of Cape Town,South Africa,77.3
+270,Oregon State University,USA,77.2
+271,Virginia Tech,USA,77.2
+272,University of East Anglia,United Kingdom,77.2
+273,Central South University,China,77.2
+274,University of Manitoba,Canada,77.2
+275,Florida State University,USA,77.2
+276,University of Bergen,Norway,77.1
+277,Soochow University, China,China,77.1
+278,King Abdulaziz University,Saudi Arabia,77.1
+279,Leipzig University,Germany,77.1
+280,University of Aberdeen,United Kingdom,77.1
+281,University of Genoa,Italy,77.0
+282,Autonomous University of Madrid,Spain,77.0
+283,University of Massachusetts Medical School,USA,77.0
+284,University of California, Santa Cruz,USA,77.0
+285,University of Lorraine,France,77.0
+286,University of Maryland, Baltimore,USA,77.0
+287,National Autonomous University of Mexico,Mexico,76.9
+288,University of Valencia,Spain,76.9
+289,University College Dublin,Ireland,76.9
+290,University of Antwerp,Belgium,76.9
+291,University of Liège,Belgium,76.9
+292,University of the Witwatersrand,South Africa,76.9
+293,University at Buffalo,USA,76.8
+294,Laval University,Canada,76.8
+295,Medical University of Vienna,Austria,76.8
+296,Beihang University,China,76.8
+297,University of South Florida,USA,76.8
+298,Wayne State University,USA,76.8
+299,University of Delaware,USA,76.7
+300,University of Pavia,Italy,76.7
+301,University of Kentucky,USA,76.7
+302,Louisiana State University,USA,76.7
+303,Dalian University of Technology,China,76.7
+304,King Abdullah University of Science and Technology,Saudi Arabia,76.7
+305,University of New Mexico,USA,76.6
+306,University of Nebraska–Lincoln,USA,76.6
+307,Washington State University,USA,76.6
+308,China Europe International Business School,China,76.6
+309,George Washington University,USA,76.6
+310,University of Lille,France,76.6
+311,University of Rome Tor Vergata,Italy,76.5
+312,Ruhr University Bochum,Germany,76.5
+313,University of Duisburg-Essen,Germany,76.5
+314,Southern Methodist University,USA,76.5
+315,Queen's University,Canada,76.5
+316,Hanyang University,South Korea,76.5
+317,University of Porto,Portugal,76.5
+318,Ulm University,Germany,76.4
+319,Chinese Academy of Medical Sciences & Peking Union Medical College,China,76.4
+320,Northeastern University,USA,76.4
+321,University of York,United Kingdom,76.4
+322,Friedrich Schiller University Jena,Germany,76.4
+323,Durham University,United Kingdom,76.4
+324,Umeå University,Sweden,76.3
+325,Beijing Normal University,China,76.3
+326,University of Granada,Spain,76.3
+327,University of South Carolina - Columbia,USA,76.3
+328,London School of Economics and Political Science,United Kingdom,76.3
+329,Polytechnic University of Milan,Italy,76.3
+330,Dalhousie University,Canada,76.3
+331,National Cheng Kung University,Taiwan,76.2
+332,University of Düsseldorf,Germany,76.2
+333,Eindhoven University of Technology,Netherlands,76.2
+334,Hunan University,China,76.2
+335,Aalto University,Finland,76.2
+336,Versailles Saint-Quentin-en-Yvelines University,France,76.2
+337,Hannover Medical School,Germany,76.2
+338,International Institute for Management Development,Switzerland,76.1
+339,Simon Fraser University,Canada,76.1
+340,Beijing Institute of Technology,China,76.1
+341,University of Dundee,United Kingdom,76.1
+342,University of St Andrews,United Kingdom,76.1
+343,University of the Basque Country,Spain,76.1
+344,University of Milano-Bicocca,Italy,76.0
+345,Lancaster University,United Kingdom,76.0
+346,University of Electronic Science and Technology of China,China,76.0
+347,University of Campinas,Brazil,76.0
+348,University of Belgrade,Serbia,76.0
+349,École des ponts ParisTech,France,76.0
+350,City College of New York,USA,76.0
+351,University of Otago,New Zealand,75.9
+352,Temple University,USA,75.9
+353,Albert Einstein College of Medicine,USA,75.9
+354,Aalborg University,Denmark,75.9
+355,Ben-Gurion University of the Negev,Israel,75.9
+356,University of Buenos Aires,Argentina,75.9
+357,Queen's University Belfast,United Kingdom,75.9
+358,Vrije Universiteit Brussel,Belgium,75.8
+359,Drexel University,USA,75.8
+360,Federal University of Rio de Janeiro,Brazil,75.8
+361,University of Southern Denmark,Denmark,75.8
+362,Linköping University,Sweden,75.8
+363,Curtin University,Australia,75.8
+364,University of Marburg,Germany,75.8
+365,University of Parma,Italy,75.8
+366,Lanzhou University,China,75.7
+367,China Agricultural University,China,75.7
+368,Pohang University of Science and Technology,South Korea,75.7
+369,National Research Center «Kurchatov Institute»,Russia,75.7
+370,Technical University of Berlin,Germany,75.7
+371,King Saud University,Saudi Arabia,75.7
+372,Islamic Azad University,Iran,75.7
+373,Justus Liebig University Giessen,Germany,75.6
+374,University of Ljubljana,Slovenia,75.6
+375,University of Innsbruck,Austria,75.6
+376,Jagiellonian University,Poland,75.6
+377,Pontifical Catholic University of Chile,Chile,75.6
+378,University of Oregon,USA,75.6
+379,University of Technology Sydney,Australia,75.6
+380,Macquarie University,Australia,75.5
+381,University of Turku,Finland,75.5
+382,National Tsing Hua University,Taiwan,75.5
+383,Medical University of South Carolina,USA,75.5
+384,East China Normal University,China,75.5
+385,University of Victoria,Canada,75.5
+386,Chongqing University,China,75.5
+387,University of Perugia,Italy,75.5
+388,Deakin University,Australia,75.4
+389,University of Regensburg,Germany,75.4
+390,Griffith University,Australia,75.4
+391,Kyung Hee University,South Korea,75.4
+392,University of Oklahoma, Norman,USA,75.4
+393,East China University of Science and Technology,China,75.4
+394,University of Warsaw,Poland,75.4
+395,Pompeu Fabra University,Spain,75.4
+396,University of Wollongong,Australia,75.3
+397,University of Malaya,Malaysia,75.3
+398,University of Newcastle,Australia,75.3
+399,University of Texas at Dallas,USA,75.3
+400,Chalmers University of Technology,Sweden,75.3
+401,Queensland University of Technology,Australia,75.3
+402,Kyungpook National University,South Korea,75.3
+403,University at Albany, SUNY,USA,75.2
+404,Swedish University of Agricultural Sciences,Sweden,75.2
+405,University of Seville,Spain,75.2
+406,Vienna University of Technology,Austria,75.2
+407,University of Coimbra,Portugal,75.2
+408,University of Bari,Italy,75.2
+409,Aristotle University of Thessaloniki,Greece,75.2
+410,University of Science and Technology Beijing,China,75.2
+411,University of Twente,Netherlands,75.1
+412,Amherst College,USA,75.1
+413,Northwestern Polytechnical University,China,75.1
+414,University of Saskatchewan,Canada,75.1
+415,Indian Institute of Management Ahmedabad,India,75.1
+416,University of Tasmania,Australia,75.1
+417,University of Côte d'Azur,France,75.1
+418,Tampere University,Finland,75.1
+419,University of Ulsan,South Korea,75.0
+420,Indiana University – Purdue University Indianapolis,USA,75.0
+421,São Paulo State University,Brazil,75.0
+422,Zhengzhou University,China,75.0
+423,Texas Tech University,USA,75.0
+424,Hiroshima University,Japan,75.0
+425,Thomas Jefferson University,USA,75.0
+426,Capital Medical University,China,75.0
+427,York University,Canada,75.0
+428,China University of Geosciences,China,74.9
+429,Kansas State University,USA,74.9
+430,Chonnam National University,South Korea,74.9
+431,University of Stuttgart,Germany,74.9
+432,Stockholm School of Economics,Sweden,74.9
+433,Catholic University of the Sacred Heart,Italy,74.9
+434,University of Mississippi,USA,74.9
+435,Stellenbosch University,South Africa,74.9
+436,University of Chile,Chile,74.8
+437,University of Trieste,Italy,74.8
+438,Okayama University,Japan,74.8
+439,University of Clermont Auvergne,France,74.8
+440,Kobe University,Japan,74.8
+441,Tulane University,USA,74.8
+442,Shenzhen University,China,74.8
+443,Saint Louis University,USA,74.8
+444,University of Bath,United Kingdom,74.7
+445,University of Texas Health Science Center at San Antonio,USA,74.7
+446,University of Oulu,Finland,74.7
+447,Vita-Salute San Raffaele University,Italy,74.7
+448,University of Navarra,Spain,74.7
+449,Pusan National University,South Korea,74.7
+450,University of Trento,Italy,74.7
+451,Medical College of Wisconsin,USA,74.7
+452,University of Eastern Finland,Finland,74.7
+453,University of Zaragoza,Spain,74.6
+454,Martin Luther University Halle-Wittenberg,Germany,74.6
+455,National Chiao Tung University,Taiwan,74.6
+456,University of Catania,Italy,74.6
+457,University of Colorado Denver,USA,74.6
+458,University of Vermont,USA,74.6
+459,Indian Institute of Science,India,74.6
+460,University of Guelph,Canada,74.6
+461,University of Alabama - Tuscaloosa,USA,74.6
+462,Syracuse University,USA,74.5
+463,University of Central Florida,USA,74.5
+464,Polytechnic University of Catalonia,Spain,74.5
+465,University of Louisville,USA,74.5
+466,Shanghai University,China,74.5
+467,University of Santiago de Compostela,Spain,74.5
+468,University of Siena,Italy,74.5
+469,Florida International University,USA,74.5
+470,Nanjing Agricultural University,China,74.5
+471,Nanjing University of Aeronautics and Astronautics,China,74.4
+472,Nanjing University of Science and Technology,China,74.4
+473,George Mason University,USA,74.4
+474,Federal University of Rio Grande do Sul,Brazil,74.4
+475,University of Strathclyde,United Kingdom,74.4
+476,Scuola Normale Superiore di Pisa,Italy,74.4
+477,Technical University of Darmstadt,Germany,74.4
+478,Joint Institute for Nuclear Research,Russia,74.4
+479,University of Rostock,Germany,74.4
+480,Beijing University of Chemical Technology,China,74.3
+481,École normale supérieure de Lyon,France,74.3
+482,James Cook University,Australia,74.3
+483,University of KwaZulu-Natal,South Africa,74.3
+484,Chulalongkorn University,Thailand,74.3
+485,Oklahoma State University,USA,74.3
+486,University of Oviedo,Spain,74.3
+487,Ioffe Physical-Technical Institute of the Russian Academy of Sciences,Russia,74.3
+488,Polytechnic University of Valencia,Spain,74.3
+489,Rovira i Virgili University,Spain,74.2
+490,Leibniz University Hannover,Germany,74.2
+491,Huazhong Agricultural University,China,74.2
+492,Xidian University,China,74.2
+493,West Virginia University,USA,74.2
+494,Nanjing Medical University,China,74.2
+495,Baylor University,USA,74.2
+496,Savoie Mont Blanc University,France,74.2
+497,Technical University of Dortmund,Germany,74.2
+498,Lehigh University,USA,74.1
+499,University of Hawaii at Manoa,USA,74.1
+500,La Trobe University,Australia,74.1
+501,University of Ferrara,Italy,74.1
+502,Rush University,USA,74.1
+503,Federal University of Minas Gerais,Brazil,74.1
+504,University of Tennessee Health Science Center,USA,74.1
+505,Swarthmore College,USA,74.1
+506,Novosibirsk State University,Russia,74.1
+507,Boston College,USA,74.1
+508,University of Modena and Reggio Emilia,Italy,74.0
+509,Western Sydney University,Australia,74.0
+510,University of Surrey,United Kingdom,74.0
+511,University of Hull,United Kingdom,74.0
+512,University of Tromsø – The Arctic University of Norway,Norway,74.0
+513,Northwest A&F University,China,74.0
+514,NOVA University of Lisbon,Portugal,74.0
+515,Royal Holloway, University of London,United Kingdom,74.0
+516,University of Canterbury,New Zealand,74.0
+517,University College Cork,Ireland,74.0
+518,Wuhan University of Technology,China,73.9
+519,University of Potsdam,Germany,73.9
+520,University of Tehran,Iran,73.9
+521,University of Tartu,Estonia,73.9
+522,National Yang-Ming University,Taiwan,73.9
+523,University of South Australia,Australia,73.9
+524,RMIT University,Australia,73.9
+525,University of Zagreb,Croatia,73.9
+526,Colorado School of Mines,USA,73.9
+527,Bar-Ilan University,Israel,73.8
+528,Ulsan National Institute of Science and Technology,South Korea,73.8
+529,University of Bremen,Germany,73.8
+530,Georgia State University,USA,73.8
+531,USI - University of Italian Speaking Switzerland,Switzerland,73.8
+532,University of Verona,Italy,73.8
+533,University of Rennes 1,France,73.8
+534,Carleton University,Canada,73.8
+535,Polytechnic University of Madrid,Spain,73.8
+536,University of Konstanz,Germany,73.8
+537,Hitotsubashi University,Japan,73.7
+538,Saint Petersburg University,Russia,73.7
+539,Northeastern University, China,China,73.7
+540,University of Arkansas - Fayetteville,USA,73.7
+541,Rensselaer Polytechnic Institute,USA,73.7
+542,Moscow Institute of Physics and Technology,Russia,73.7
+543,Tata Institute of Fundamental Research,India,73.7
+544,University of Nantes,France,73.7
+545,Medical University of Innsbruck,Austria,73.7
+546,Cairo University,Egypt,73.7
+547,Ewha Womans University,South Korea,73.6
+548,National Technical University of Athens,Greece,73.6
+549,Mahidol University,Thailand,73.6
+550,Chiba University,Japan,73.6
+551,Fuzhou University,China,73.6
+552,China Medical University, Taiwan,Taiwan,73.6
+553,Jinan University,China,73.6
+554,Flinders University,Australia,73.6
+555,National Central University,Taiwan,73.6
+556,Clemson University,USA,73.6
+557,Indian Institute of Technology Madras,India,73.6
+558,Mayo Clinic College of Medicine and Science,USA,73.5
+559,Brunel University London,United Kingdom,73.5
+560,San Diego State University,USA,73.5
+561,Medical University of Graz,Austria,73.5
+562,Southwest University,China,73.5
+563,University of Graz,Austria,73.5
+564,University of Sherbrooke,Canada,73.5
+565,University of Jyväskylä,Finland,73.5
+566,Institut Agro,France,73.5
+567,Indian Institute of Technology Bombay,India,73.5
+568,China University of Petroleum,China,73.4
+569,University of Texas at Arlington,USA,73.4
+570,Chang Gung University,Taiwan,73.4
+571,University of Delhi,India,73.4
+572,Palacký University Olomouc,Czech Republic,73.4
+573,Middle East Technical University,Turkey,73.4
+574,Illinois Institute of Technology,USA,73.4
+575,University of Iceland,Iceland,73.4
+576,Nanjing Tech University,China,73.4
+577,University of Minho,Portugal,73.4
+578,Institute of Cancer Research, University of London,United Kingdom,73.4
+579,University of Udine,Italy,73.3
+580,University of Pretoria,South Africa,73.3
+581,Auburn University,USA,73.3
+582,Swansea University,United Kingdom,73.3
+583,University of Wisconsin–Milwaukee,USA,73.3
+584,University of Burgundy,France,73.3
+585,University of Palermo,Italy,73.3
+586,Concordia University,Canada,73.3
+587,Masaryk University,Czech Republic,73.3
+588,Bocconi University,Italy,73.3
+589,College of William & Mary,USA,73.2
+590,University of Nebraska Medical Center,USA,73.2
+591,Eötvös Loránd University,Hungary,73.2
+592,Haverford College,USA,73.2
+593,Central China Normal University,China,73.2
+594,Czech Technical University in Prague,Czech Republic,73.2
+595,Jiangsu University,China,73.2
+596,University Paris-Est Créteil,France,73.2
+597,Brigham Young University,USA,73.2
+598,CINVESTAV,Mexico,73.2
+599,Polytechnic University of Turin,Italy,73.2
+600,University of Salerno,Italy,73.1
+601,Beijing Jiaotong University,China,73.1
+602,Jiangnan University,China,73.1
+603,University of Aveiro,Portugal,73.1
+604,University of Cagliari,Italy,73.1
+605,University of Eastern Piedmont,Italy,73.1
+606,AGH University of Science and Technology,Poland,73.1
+607,Federal University of São Paulo,Brazil,73.1
+608,Nanjing University of Information Science and Technology,China,73.1
+609,Comenius University in Bratislava,Slovak Republic,73.1
+610,University of St.Gallen,Switzerland,73.1
+611,Jeonbuk National University,South Korea,73.0
+612,Sharif University of Technology,Iran,73.0
+613,National Research Nuclear University MEPhI,Russia,73.0
+614,St George's, University of London,United Kingdom,73.0
+615,Utah State University,USA,73.0
+616,University of Bayreuth,Germany,73.0
+617,University of Québec at Montreal,Canada,73.0
+618,Second Military Medical University,China,73.0
+619,National University of Ireland, Galway,Ireland,73.0
+620,Rio de Janeiro State University,Brazil,73.0
+621,National University of La Plata,Argentina,73.0
+622,University of Brescia,Italy,73.0
+623,Indian Institute of Technology Delhi,India,72.9
+624,Toulouse INP,France,72.9
+625,University of La Laguna,Spain,72.9
+626,Institut national des sciences appliquées de Lyon,France,72.9
+627,Konkuk University,South Korea,72.9
+628,Southern Medical University,China,72.9
+629,Bielefeld University,Germany,72.9
+630,Cold Spring Harbor Laboratory,USA,72.9
+631,University of Plymouth,United Kingdom,72.9
+632,Henryk Niewodniczański Institute of Nuclear Physics,Poland,72.9
+633,North China Electric Power University,China,72.9
+634,Ocean University of China,China,72.8
+635,Catholic University of Korea,South Korea,72.8
+636,Courtauld Institute of Art,United Kingdom,72.8
+637,Boğaziçi University,Turkey,72.8
+638,China University of Mining and Technology,China,72.8
+639,Memorial University of Newfoundland,Canada,72.8
+640,National Polytechnic Institute,Mexico,72.8
+641,University of New Hampshire,USA,72.8
+642,Tilburg University,Netherlands,72.8
+643,Tehran University of Medical Sciences,Iran,72.8
+644,Southern University of Science and Technology,China,72.8
+645,Renmin University of China,China,72.8
+646,Nanjing Normal University,China,72.7
+647,Hefei University of Technology,China,72.7
+648,Donghua University,China,72.7
+649,University of Cantabria,Spain,72.7
+650,Hacettepe University,Turkey,72.7
+651,Saarland University,Germany,72.7
+652,Ankara University,Turkey,72.7
+653,Binghamton University,USA,72.7
+654,Chung-Ang University,South Korea,72.7
+655,Shinshu University,Japan,72.7
+656,University of Macau,China,72.7
+657,Swinburne University of Technology,Australia,72.6
+658,University of Campania Luigi Vanvitelli,Italy,72.6
+659,Sciences Po,France,72.6
+660,Loughborough University,United Kingdom,72.6
+661,Loyola University Chicago,USA,72.6
+662,University of Texas Medical Branch,USA,72.6
+663,Tokyo Metropolitan University,Japan,72.6
+664,University of Kent,United Kingdom,72.6
+665,Roma Tre University,Italy,72.6
+666,University of Calabria,Italy,72.6
+667,Massey University,New Zealand,72.6
+668,University of Haifa,Israel,72.6
+669,Kanazawa University,Japan,72.5
+670,University of Wyoming,USA,72.5
+671,University of Málaga,Spain,72.5
+672,Tokyo Medical and Dental University,Japan,72.5
+673,Istanbul University,Turkey,72.5
+674,University of Johannesburg,South Africa,72.5
+675,University of Texas at San Antonio,USA,72.5
+676,University of Ioannina,Greece,72.5
+677,Zhejiang University of Technology,China,72.5
+678,University of Szeged,Hungary,72.5
+679,University of Fribourg,Switzerland,72.5
+680,University of Maine, Orono,USA,72.5
+681,Tianjin Medical University,China,72.5
+682,Istanbul Technical University,Turkey,72.4
+683,Semmelweis University,Hungary,72.4
+684,Nanchang University,China,72.4
+685,University of Nevada, Reno,USA,72.4
+686,Warsaw University of Technology,Poland,72.4
+687,Vilnius University,Lithuania,72.4
+688,National University of Defense Technology,China,72.4
+689,Chungnam National University,South Korea,72.4
+690,Yokohama City University,Japan,72.4
+691,Southwest Jiaotong University,China,72.4
+692,University of Salamanca,Spain,72.4
+693,Hong Kong Baptist University,China,72.4
+694,Isfahan University of Technology,Iran,72.3
+695,University of Debrecen,Hungary,72.3
+696,National Chung Hsing University,Taiwan,72.3
+697,Oswaldo Cruz Foundation,Brazil,72.3
+698,Victoria University of Wellington,New Zealand,72.3
+699,Heriot-Watt University,United Kingdom,72.3
+700,University of Oklahoma Health Sciences Center,USA,72.3
+701,Inha University,South Korea,72.3
+702,University of Crete,Greece,72.3
+703,Kumamoto University,Japan,72.3
+704,Otto von Guericke University Magdeburg,Germany,72.3
+705,King Fahd University of Petroleum and Minerals,Saudi Arabia,72.3
+706,Northeast Normal University,China,72.2
+707,University of Greifswald,Germany,72.2
+708,Indian Institute of Technology Kharagpur,India,72.2
+709,Panjab University,India,72.2
+710,University of North Texas, Denton,USA,72.2
+711,South China Normal University,China,72.2
+712,Taipei Medical University,Taiwan,72.2
+713,Mississippi State University,USA,72.2
+714,University of Arkansas for Medical Sciences,USA,72.2
+715,University of Missouri-Kansas City,USA,72.2
+716,Birkbeck, University of London,United Kingdom,72.2
+717,International School for Advanced Studies,Italy,72.2
+718,Budker Institute of Nuclear Physics of the Siberian Branch of the Russian Academy of Sciences,Russia,72.2
+719,Montana State University - Bozeman,USA,72.1
+720,University of Angers,France,72.1
+721,Yangzhou University,China,72.1
+722,Niigata University,Japan,72.1
+723,Qingdao University,China,72.1
+724,Central Party School of the Communist Party of China,China,72.1
+725,American University of Beirut,Lebanon,72.1
+726,Kangwon National University,South Korea,72.1
+727,University of Maryland, Baltimore County,USA,72.1
+728,Federal University of Santa Catarina,Brazil,72.1
+729,University of Massachusetts Boston,USA,72.1
+730,Bangor University,United Kingdom,72.1
+731,Beijing University of Technology,China,72.1
+732,Antioch College,USA,72.0
+733,Ajou University,South Korea,72.0
+734,Army Medical University,China,72.0
+735,Tokyo University of Science,Japan,72.0
+736,University of Vigo,Spain,72.0
+737,Beijing University of Posts and Telecommunications,China,72.0
+738,University of Alaska Fairbanks,USA,72.0
+739,Augusta University,USA,72.0
+740,University of Salento,Italy,72.0
+741,Technical University of Braunschweig,Germany,72.0
+742,Quaid-i-Azam University,Pakistan,72.0
+743,SUNY Downstate Medical Center,USA,72.0
+744,Guangdong University of Technology,China,72.0
+745,Osaka City University,Japan,71.9
+746,Northwest University, Xi'an,China,71.9
+747,University of Castilla–La Mancha,Spain,71.9
+748,Kitasato University,Japan,71.9
+749,University of Cyprus,Cyprus,71.9
+750,University of the Andes, Colombia,Colombia,71.9
+751,University of Idaho,USA,71.9
+752,Kent State University,USA,71.9
+753,Amirkabir University of Technology,Iran,71.9
+754,Nanjing University of Posts and Telecommunications,China,71.9
+755,Yerevan Physics Institute,Armenia,71.9
+756,University of Essex,United Kingdom,71.9
+757,South China Agricultural University,China,71.9
+758,Sejong University,South Korea,71.8
+759,Shaanxi Normal University,China,71.8
+760,Air Force Medical University,China,71.8
+761,University of Wuppertal,Germany,71.8
+762,Institute for Nuclear Research of the Russian Academy of Sciences,Russia,71.8
+763,Graduate Faculty, General Research Institute For Nonferrous Metals,China,71.8
+764,University of Lübeck,Germany,71.8
+765,Yeungnam University,South Korea,71.8
+766,University of Split,Croatia,71.8
+767,Centrale Lille Institut,France,71.8
+768,University of Girona,Spain,71.8
+769,Örebro University,Sweden,71.8
+770,Hohai University,China,71.8
+771,Shanxi University,China,71.8
+772,University of the Balearic Islands,Spain,71.7
+773,University of Montana,USA,71.7
+774,Ohio University,USA,71.7
+775,University of Murcia,Spain,71.7
+776,National Taiwan University of Science and Technology,Taiwan,71.7
+777,Gwangju Institute of Science and Technology,South Korea,71.7
+778,University of Science, Malaysia,Malaysia,71.7
+779,Federal University of Paraná,Brazil,71.7
+780,Marche Polytechnic University,Italy,71.7
+781,Belarusian State University,Belarus,71.7
+782,Kaohsiung Medical University,Taiwan,71.7
+783,University of Natural Resources and Life Sciences, Vienna,Austria,71.7
+784,Sorbonne Paris Nord University,France,71.7
+785,Wenzhou Medical University,China,71.6
+786,Northern Illinois University,USA,71.6
+787,L.D. Landau Institute for Theoretical Physics of the Russian Academy of Sciences,Russia,71.6
+788,University of Córdoba, Spain,Spain,71.6
+789,National Sun Yat-sen University,Taiwan,71.6
+790,University of Patras,Greece,71.6
+791,Norwegian University of Life Sciences,Norway,71.6
+792,Tarbiat Modares University,Iran,71.6
+793,Harbin Medical University,China,71.6
+794,University of Hohenheim,Germany,71.6
+795,Guangzhou Medical University,China,71.6
+796,University of North Carolina at Charlotte,USA,71.6
+797,Ain Shams University,Egypt,71.6
+798,Carl von Ossietzky University of Oldenburg,Germany,71.6
+799,Gyeongsang National University,South Korea,71.5
+800,China Medical University, PRC,China,71.5
+801,University of Siegen,Germany,71.5
+802,Gustave Eiffel University,France,71.5
+803,University of Jinan,China,71.5
+804,Beijing Forestry University,China,71.5
+805,Putra University, Malaysia,Malaysia,71.5
+806,University of L'Aquila,Italy,71.5
+807,Kindai University,Japan,71.5
+808,Nagasaki University,Japan,71.5
+809,COMSATS University Islamabad,Pakistan,71.5
+810,Polytechnic University of Bari,Italy,71.5
+811,Brazilian Center for Research in Physics (CBPF),Brazil,71.5
+812,University of Rhode Island,USA,71.5
+813,Open University, UK,United Kingdom,71.4
+814,Carlos III University of Madrid,Spain,71.4
+815,University of Denver,USA,71.4
+816,National University of Colombia,Colombia,71.4
+817,University of Toledo,USA,71.4
+818,Indian Institute of Technology Kanpur,India,71.4
+819,Adam Mickiewicz University in Poznań,Poland,71.4
+820,Shizuoka University,Japan,71.4
+821,University of Basilicata,Italy,71.4
+822,Miami University,USA,71.4
+823,Jawaharlal Nehru University,India,71.4
+824,Old Dominion University,USA,71.4
+825,University of Concepción,Chile,71.4
+826,Harbin Engineering University,China,71.4
+827,University of Alcalá,Spain,71.3
+828,Graz University of Technology,Austria,71.3
+829,Ryerson University,Canada,71.3
+830,Getúlio Vargas Foundation,Brazil,71.3
+831,University of Tours,France,71.3
+832,University of Nevada, Las Vegas,USA,71.3
+833,Jawaharlal Nehru Centre for Advanced Scientific Research,India,71.3
+834,Federico Santa María Technical University,Chile,71.3
+835,Hasselt University,Belgium,71.3
+836,University of Messina,Italy,71.3
+837,University of Wrocław,Poland,71.3
+838,Juntendo University,Japan,71.3
+839,Ege University,Turkey,71.3
+840,Aberystwyth University,United Kingdom,71.3
+841,Federal University of Pernambuco,Brazil,71.3
+842,Benemérita Autonomous University of Puebla,Mexico,71.2
+843,Rutgers University–Newark,USA,71.2
+844,Gazi University,Turkey,71.2
+845,University of Alicante,Spain,71.2
+846,Wesleyan University,USA,71.2
+847,University of California, Merced,USA,71.2
+848,Cranfield University,United Kingdom,71.2
+849,University of Mons,Belgium,71.2
+850,University of Louisiana at Lafayette,USA,71.2
+851,Liverpool John Moores University,United Kingdom,71.2
+852,Ivane Javakhishvili Tbilisi State University,Georgia,71.2
+853,Jean Monnet University,France,71.2
+854,Sofia University,Bulgaria,71.2
+855,Graduate University for Advanced Studies,Japan,71.2
+856,Banaras Hindu University,India,71.1
+857,INSA Toulouse,France,71.1
+858,All India Institute of Medical Sciences, New Delhi,India,71.1
+859,Uniformed Services University of the Health Sciences,USA,71.1
+860,Indian Institute of Technology Roorkee,India,71.1
+861,Northern Arizona University,USA,71.1
+862,Tomsk State University,Russia,71.1
+863,Technical University of Kaiserslautern,Germany,71.1
+864,University of Luxembourg,Luxembourg,71.1
+865,City, University of London,United Kingdom,71.1
+866,Anhui University,China,71.1
+867,Murdoch University,Australia,71.1
+868,Chongqing Medical University,China,71.1
+869,University of Orléans,France,71.1
+870,Southern Illinois University Carbondale,USA,71.1
+871,Babeș-Bolyai University,Romania,71.0
+872,University of Brasília,Brazil,71.0
+873,Henan University,China,71.0
+874,University of Brighton,United Kingdom,71.0
+875,Dongguk University,South Korea,71.0
+876,National Centre for Nuclear Research,Poland,71.0
+877,University of Insubria,Italy,71.0
+878,University of Akron,USA,71.0
+879,Hangzhou Normal University,China,71.0
+880,Iran University of Science and Technology,Iran,71.0
+881,National Research University Higher School of Economics,Russia,71.0
+882,Shandong University of Science and Technology,China,71.0
+883,China Pharmaceutical University,China,71.0
+884,National University of Malaysia (UKM),Malaysia,71.0
+885,Norwegian School of Economics,Norway,71.0
+886,Portland State University,USA,70.9
+887,Budapest University of Technology and Economics,Hungary,70.9
+888,Jaume I University,Spain,70.9
+889,University of Seoul,South Korea,70.9
+890,Gachon University,South Korea,70.9
+891,Polytechnic University of Bucharest,Romania,70.9
+892,Peter the Great St. Petersburg Polytechnic University,Russia,70.9
+893,New Mexico State University,USA,70.9
+894,Nihon University,Japan,70.9
+895,University of Stirling,United Kingdom,70.9
+896,Federal University of ABC,Brazil,70.9
+897,University of Hyogo,Japan,70.9
+898,East Carolina University,USA,70.9
+899,ShanghaiTech University,China,70.9
+900,Inje University,South Korea,70.9
+901,University of Technology, Malaysia,Malaysia,70.8
+902,Keele University,United Kingdom,70.8
+903,University of Valladolid,Spain,70.8
+904,Michigan Technological University,USA,70.8
+905,Guangxi University,China,70.8
+906,North Dakota State University,USA,70.8
+907,Ningbo University,China,70.8
+908,University of Portsmouth,United Kingdom,70.8
+909,London Business School,United Kingdom,70.8
+910,Institut national de la recherche scientifique,Canada,70.8
+911,Oberlin College,USA,70.8
+912,Federal University of Viçosa,Brazil,70.8
+913,Çukurova University,Turkey,70.8
+914,University of Windsor,Canada,70.8
+915,Tokushima University,Japan,70.8
+916,Missouri University of Science and Technology,USA,70.8
+917,University of Poitiers,France,70.7
+918,Paul Valéry University,France,70.7
+919,University of Science and Technology, Korea,South Korea,70.7
+920,Zhejiang Normal University,China,70.7
+921,Ulster University,United Kingdom,70.7
+922,Northumbria University,United Kingdom,70.7
+923,Meijo University,Japan,70.7
+924,North-West University,South Africa,70.7
+925,Shandong First Medical University & Shandong Academy of Medical Sciences,China,70.7
+926,Johannes Kepler University Linz,Austria,70.7
+927,V.A. Engelhardt Institute of Molecular Biology of the Russian Academy of Sciences,Russia,70.7
+928,Pepperdine University,USA,70.7
+929,Federal University of Ceará,Brazil,70.7
+930,Federal University of Pelotas,Brazil,70.7
+931,Gabriele d’Annunzio University,Italy,70.7
+932,Ritsumeikan University,Japan,70.6
+933,Claremont McKenna College,USA,70.6
+934,Makerere University,Uganda,70.6
+935,Shiraz University,Iran,70.6
+936,Bucknell University,USA,70.6
+937,Chungbuk National University,South Korea,70.6
+938,Indian Institute of Technology Guwahati,India,70.6
+939,University of the Republic, Uruguay,Uruguay,70.6
+940,Bilkent University,Turkey,70.6
+941,National University of Córdoba,Argentina,70.6
+942,Sanford Burnham Prebys Medical Discovery Institute,USA,70.6
+943,Medical University of Warsaw,Poland,70.6
+944,Chiang Mai University,Thailand,70.6
+945,Khalifa University,United Arab Emirates,70.6
+946,Mohammed V University,Morocco,70.6
+947,Colgate University,USA,70.6
+948,New Jersey Institute of Technology,USA,70.5
+949,Lappeenranta University of Technology,Finland,70.5
+950,Tokyo University of Agriculture and Technology,Japan,70.5
+951,University of Regina,Canada,70.5
+952,Tunis El Manar University,Tunisia,70.5
+953,Anhui Medical University,China,70.5
+954,University of Franche-Comté,France,70.5
+955,Autonomous University of San Luis Potosí,Mexico,70.5
+956,Yanshan University,China,70.5
+957,Aston University,United Kingdom,70.5
+958,University of Naples Parthenope,Italy,70.5
+959,Pomona College,USA,70.5
+960,Qingdao University of Science and Technology,China,70.5
+961,Shandong Agricultural University,China,70.5
+962,King Juan Carlos University,Spain,70.5
+963,University of Limerick,Ireland,70.5
+964,Ehime University,Japan,70.4
+965,University of Memphis,USA,70.4
+966,Xiangtan University,China,70.4
+967,Tokai University,Japan,70.4
+968,Federal University of São Carlos,Brazil,70.4
+969,University of Upper Alsace,France,70.4
+970,Victoria University,Australia,70.4
+971,University of Sassari,Italy,70.4
+972,University of Texas Rio Grande Valley,USA,70.4
+973,Ferdowsi University of Mashhad,Iran,70.4
+974,Shandong Normal University,China,70.4
+975,Taiyuan University of Technology,China,70.4
+976,Wroclaw Medical University,Poland,70.4
+977,Gifu University,Japan,70.4
+978,Florida Institute of Technology,USA,70.4
+979,Fluminense Federal University,Brazil,70.4
+980,Hunter College,USA,70.4
+981,Qatar University,Qatar,70.3
+982,Henan Normal University,China,70.3
+983,ITMO University,Russia,70.3
+984,Mansoura University,Egypt,70.3
+985,Wrocław University of Science and Technology,Poland,70.3
+986,Miguel Hernández University of Elche,Spain,70.3
+987,Federal University of Juiz de Fora,Brazil,70.3
+988,Shahid Beheshti University of Medical Sciences,Iran,70.3
+989,Cheung Kong Graduate School of Business,China,70.3
+990,Fujian Agriculture and Forestry University,China,70.3
+991,Osaka Prefecture University,Japan,70.3
+992,Shanghai Normal University,China,70.3
+993,University of A Coruña,Spain,70.3
+994,University of Tabriz,Iran,70.3
+995,Hunan Normal University,China,70.3
+996,Hallym University,South Korea,70.3
+997,Marmara University,Turkey,70.2
+998,Hangzhou Dianzi University,China,70.2
+999,Alexandria University,Egypt,70.2
+1000,American University,USA,70.2
+1001,University of Extremadura,Spain,70.2
+1002,Federal University of Rio Grande do Norte,Brazil,70.2
+1003,Capital Normal University,China,70.2
+1004,Creighton University,USA,70.2
+1005,Louisiana Tech University,USA,70.2
+1006,Yamagata University,Japan,70.2
+1007,Tokyo Women's Medical University,Japan,70.2
+1008,University of Toyama,Japan,70.2
+1009,University of Mannheim,Germany,70.2
+1010,University of Bucharest,Romania,70.2
+1011,VetAgro Sup,France,70.2
+1012,Academy of Scientific & Innovative Research,India,70.2
+1013,Kunming University of Science and Technology,China,70.2
+1014,Medical University of Lodz,Poland,70.1
+1015,Sogang University,South Korea,70.1
+1016,Nicolaus Copernicus University,Poland,70.1
+1017,Nantong University,China,70.1
+1018,Yunnan University,China,70.1
+1019,Federal University of Bahia,Brazil,70.1
+1020,United States Naval Academy,USA,70.1
+1021,University of Shanghai for Science and Technology,China,70.1
+1022,University of Texas at El Paso,USA,70.1
+1023,National Taiwan Normal University,Taiwan,70.1
+1024,SUNY Upstate Medical University,USA,70.1
+1025,Royal College of Surgeons in Ireland,Ireland,70.1
+1026,Federal University of Santa Maria,Brazil,70.1
+1027,Babson College,USA,70.1
+1028,Mohamed First University Oujda,Morocco,70.1
+1029,Chuo University,Japan,70.1
+1030,Rouen Normandy University,France,70.1
+1031,Brandenburg University of Technology,Germany,70.0
+1032,Jadavpur University,India,70.0
+1033,Manhattan College,USA,70.0
+1034,Cadi Ayyad University,Morocco,70.0
+1035,Guangzhou University,China,70.0
+1036,University of New England, Australia,Australia,70.0
+1037,Edith Cowan University,Australia,70.0
+1038,École nationale supérieure de chimie de Montpellier,France,70.0
+1039,Sichuan Agricultural University,China,70.0
+1040,Gaziantep University,Turkey,70.0
+1041,Qufu Normal University,China,70.0
+1042,Nanjing Forestry University,China,70.0
+1043,Villanova University,USA,70.0
+1044,Dublin City University,Ireland,70.0
+1045,Yıldız Technical University,Turkey,70.0
+1046,National Taipei University of Technology,Taiwan,70.0
+1047,Paderborn University,Germany,70.0
+1048,Kagoshima University,Japan,69.9
+1049,Gunma University,Japan,69.9
+1050,University of Urbino,Italy,69.9
+1051,IMT Atlantique,France,69.9
+1052,University of South Bohemia,Czech Republic,69.9
+1053,University of Augsburg,Germany,69.9
+1054,University of New Brunswick,Canada,69.9
+1055,Rochester Institute of Technology,USA,69.9
+1056,Smith College,USA,69.9
+1057,Auckland University of Technology,New Zealand,69.9
+1058,Fordham University,USA,69.9
+1059,University of Maribor,Slovenia,69.9
+1060,University of Cádiz,Spain,69.9
+1061,Federal University of Goiás,Brazil,69.9
+1062,University of Puerto Rico at Mayagüez,USA,69.9
+1063,University of Antioquia,Colombia,69.9
+1064,Nara Institute of Science and Technology,Japan,69.9
+1065,Florida Atlantic University,USA,69.9
+1066,Australian Catholic University,Australia,69.8
+1067,Kazan Federal University,Russia,69.8
+1068,Worcester Polytechnic Institute,USA,69.8
+1069,Dankook University,South Korea,69.8
+1070,University of Salzburg,Austria,69.8
+1071,Singapore University of Technology and Design,Singapore,69.8
+1072,Jichi Medical University,Japan,69.8
+1073,Kharkov Institute of Physics and Technology,Ukraine,69.8
+1074,University of Jaén,Spain,69.8
+1075,Hassan II University of Casablanca,Morocco,69.8
+1076,Fujian Normal University,China,69.8
+1077,University of North Carolina at Greensboro,USA,69.8
+1078,Institute of Solid State Physics of the Russian Academy of Sciences,Russia,69.8
+1079,Mersin University,Turkey,69.8
+1080,Medical University of Silesia,Poland,69.8
+1081,Paracelsus Medical University,Austria,69.8
+1082,Aga Khan University,Pakistan,69.8
+1083,Zhejiang Sci-Tech University,China,69.7
+1084,University of Novi Sad,Serbia,69.7
+1085,Fujian Medical University,China,69.7
+1086,Nagoya City University,Japan,69.7
+1087,Medical University of Gdańsk,Poland,69.7
+1088,Charles Darwin University,Australia,69.7
+1089,Åbo Akademi University,Finland,69.7
+1090,University of Pécs,Hungary,69.7
+1091,Charles Sturt University,Australia,69.7
+1092,Indian Association for the Cultivation of Science,India,69.7
+1093,Pablo de Olavide University,Spain,69.7
+1094,University of Lleida,Spain,69.7
+1095,Toho University,Japan,69.7
+1096,College of the Holy Cross,USA,69.7
+1097,University of Calcutta,India,69.7
+1098,Liverpool School of Tropical Medicine,United Kingdom,69.7
+1099,University of Hertfordshire,United Kingdom,69.7
+1100,Copenhagen Business School,Denmark,69.7
+1101,Loma Linda University,USA,69.6
+1102,Visva-Bharati University,India,69.6
+1103,University of Thessaly,Greece,69.6
+1104,University of Veterinary Medicine, Vienna,Austria,69.6
+1105,Shahid Beheshti University,Iran,69.6
+1106,Teikyo University,Japan,69.6
+1107,University of Neuchâtel,Switzerland,69.6
+1108,Maria Sklodowska-Curie National Research Institute of Oncology,Poland,69.6
+1109,University of Kassel,Germany,69.6
+1110,University of Évry Val d'Essonne,France,69.6
+1111,Manchester Metropolitan University,United Kingdom,69.6
+1112,Institute of Science and Technology Austria,Austria,69.6
+1113,University of Waikato,New Zealand,69.6
+1114,University of Canberra,Australia,69.6
+1115,University of Massachusetts Lowell,USA,69.6
+1116,University of Chemistry and Technology, Prague,Czech Republic,69.6
+1117,California State University, Fresno,USA,69.6
+1118,Chemnitz University of Technology,Germany,69.6
+1119,Soonchunhyang University,South Korea,69.5
+1120,Hubei University,China,69.5
+1121,National Institute of Public Health (INSP),Mexico,69.5
+1122,South Dakota State University,USA,69.5
+1123,Ramon Llull University,Spain,69.5
+1124,Indian Institute of Science Education and Research, Pune,India,69.5
+1125,Kyoto Prefectural University of Medicine,Japan,69.5
+1126,Tokat Gaziosmanpaşa University,Turkey,69.5
+1127,Tiangong University,China,69.5
+1128,Postgraduate Institute of Medical Education and Research,India,69.5
+1129,Shantou University,China,69.5
+1130,Ural Federal University,Russia,69.5
+1131,Shanghai University of Finance and Economics,China,69.5
+1132,Metropolitan Autonomous University,Mexico,69.5
+1133,San Francisco State University,USA,69.5
+1134,Federal University of São João del-Rei,Brazil,69.5
+1135,Wright State University,USA,69.5
+1136,Marquette University,USA,69.5
+1137,New York Medical College,USA,69.5
+1138,University of Silesia in Katowice,Poland,69.4
+1139,Aligarh Muslim University,India,69.4
+1140,National Defense Medical Center,Taiwan,69.4
+1141,Mie University,Japan,69.4
+1142,Dokuz Eylül University,Turkey,69.4
+1143,University of Sfax,Tunisia,69.4
+1144,Yamaguchi University,Japan,69.4
+1145,İzmir Institute of Technology,Turkey,69.4
+1146,École centrale de Lyon,France,69.4
+1147,Jiangsu Normal University,China,69.4
+1148,Hofstra University,USA,69.4
+1149,Howard University,USA,69.4
+1150,Addis Ababa University,Ethiopia,69.4
+1151,Bowdoin College,USA,69.4
+1152,Pukyong National University,South Korea,69.4
+1153,United States Military Academy,USA,69.4
+1154,Luleå University of Technology,Sweden,69.4
+1155,Stevens Institute of Technology,USA,69.4
+1156,Ibero-American University,Mexico,69.3
+1157,Chung Shan Medical University,Taiwan,69.3
+1158,Jacobs University,Germany,69.3
+1159,Magna Graecia University of Catanzaro,Italy,69.3
+1160,Koç University,Turkey,69.3
+1161,University of Las Palmas de Gran Canaria,Spain,69.3
+1162,West University of Timișoara,Romania,69.3
+1163,University of the Free State,South Africa,69.3
+1164,Guizhou University,China,69.3
+1165,Osnabrück University,Germany,69.3
+1166,University of Yamanashi,Japan,69.3
+1167,University of Ibadan,Nigeria,69.3
+1168,Anna University,India,69.3
+1169,Santa Clara University,USA,69.3
+1170,University of Missouri-St. Louis,USA,69.3
+1171,Hebei University of Technology,China,69.3
+1172,Khon Kaen University,Thailand,69.3
+1173,Maynooth University,Ireland,69.3
+1174,Adıyaman University,Turkey,69.3
+1175,University of Western Brittany,France,69.2
+1176,Sant'Anna School of Advanced Studies,Italy,69.2
+1177,Nippon Medical School,Japan,69.2
+1178,University of Dayton,USA,69.2
+1179,California Polytechnic State University, San Luis Obispo,USA,69.2
+1180,Tokyo Medical University,Japan,69.2
+1181,TOBB University of Economics and Technology,Turkey,69.2
+1182,Wilfrid Laurier University,Canada,69.2
+1183,Poznan University of Medical Sciences,Poland,69.2
+1184,Changzhou University,China,69.2
+1185,Prince of Songkla University,Thailand,69.2
+1186,Nottingham Trent University,United Kingdom,69.2
+1187,Northeast Forestry University,China,69.2
+1188,Tianjin University of Technology,China,69.2
+1189,Clark University,USA,69.2
+1190,Assiut University,Egypt,69.2
+1191,Asia University, Taiwan,Taiwan,69.2
+1192,Oakland University,USA,69.2
+1193,University of North Dakota,USA,69.2
+1194,Indian Agricultural Research Institute,India,69.1
+1195,Kanazawa Institute of Technology,Japan,69.1
+1196,Erciyes University,Turkey,69.1
+1197,Albany Medical College,USA,69.1
+1198,Kafkas University,Turkey,69.1
+1199,Federal University of Mato Grosso do Sul,Brazil,69.1
+1200,Tomsk Polytechnic University,Russia,69.1
+1201,Menlo College,USA,69.1
+1202,Nanjing University of Chinese Medicine,China,69.1
+1203,University of Alabama in Huntsville,USA,69.1
+1204,Macau University of Science and Technology,China,69.1
+1205,Asian Institute of Management,Philippines,69.1
+1206,Fu Jen Catholic University,Taiwan,69.1
+1207,University of Gdańsk,Poland,69.1
+1208,Jikei University,Japan,69.1
+1209,Suez Canal University,Egypt,69.1
+1210,University of the Ryukyus,Japan,69.1
+1211,Yokohama National University,Japan,69.1
+1212,Federal University of Pará,Brazil,69.1
+1213,Toulouse 1 Capitole University,France,69.0
+1214,University of Bradford,United Kingdom,69.0
+1215,University of Picardie Jules Verne,France,69.0
+1216,University of Puerto Rico, Medical Sciences Campus,USA,69.0
+1217,Carol Davila University of Medicine and Pharmacy,Romania,69.0
+1218,Hebei University,China,69.0
+1219,Huaqiao University,China,69.0
+1220,Dong-A University,South Korea,69.0
+1221,Monterrey Institute of Technology and Higher Education,Mexico,69.0
+1222,Andrés Bello University,Chile,69.0
+1223,Brock University,Canada,69.0
+1224,Dalian Maritime University,China,69.0
+1225,University of the West of England, Bristol,United Kingdom,69.0
+1226,Catholic University of America,USA,69.0
+1227,Conservatoire national des arts et métiers,France,69.0
+1228,Jiangxi Normal University,China,69.0
+1229,Nagasaki Institute of Applied Science,Japan,69.0
+1230,Federal University of Paraíba,Brazil,69.0
+1231,Hunan Agricultural University,China,69.0
+1232,University of Lodz,Poland,69.0
+1233,Dalian Medical University,China,68.9
+1234,Northeast Agricultural University,China,68.9
+1235,Daegu Gyeongbuk Institute of Science and Technology,South Korea,68.9
+1236,University of Hyderabad,India,68.9
+1237,Gran Sasso Science Institute,Italy,68.9
+1238,Süleyman Demirel University,Turkey,68.9
+1239,University of Western Cape,South Africa,68.9
+1240,Texas State University,USA,68.9
+1241,Fujita Health University,Japan,68.9
+1242,Federal University of Espírito Santo,Brazil,68.9
+1243,Saitama Medical University,Japan,68.9
+1244,University of Algarve,Portugal,68.9
+1245,University of Southern Queensland,Australia,68.9
+1246,Chung Yuan Christian University,Taiwan,68.9
+1247,Saitama University,Japan,68.9
+1248,Boise State University,USA,68.9
+1249,Henan University of Science and Technology,China,68.9
+1250,SOAS University of London,United Kingdom,68.9
+1251,University of Namur,Belgium,68.9
+1252,Kasetsart University,Thailand,68.9
+1253,Kōchi University,Japan,68.8
+1254,United Arab Emirates University,United Arab Emirates,68.8
+1255,University of the Punjab,Pakistan,68.8
+1256,Ca' Foscari University of Venice,Italy,68.8
+1257,Czech University of Life Sciences Prague,Czech Republic,68.8
+1258,Austral University of Chile,Chile,68.8
+1259,Public University of Navarre,Spain,68.8
+1260,Qilu University of Technology,China,68.8
+1261,K. N. Toosi University of Technology,Iran,68.8
+1262,École supérieure de chimie, physique, électronique de Lyon,France,68.8
+1263,Saga University,Japan,68.8
+1264,Wenzhou University,China,68.8
+1265,XLRI - Xavier School of Management,India,68.8
+1266,Vietnam National University, Hanoi,Vietnam,68.8
+1267,Hirosaki University,Japan,68.8
+1268,University of Camerino,Italy,68.8
+1269,Guangxi Medical University,China,68.8
+1270,Federal University of Uberlândia,Brazil,68.8
+1271,SUNY College of Environmental Science and Forestry,USA,68.8
+1272,Bowling Green State University,USA,68.8
+1273,Tottori University,Japan,68.7
+1274,Tuscia University,Italy,68.7
+1275,National Institute for Space Research (INPE),Brazil,68.7
+1276,Institute of Physics, Azerbaijan National Academy of Sciences,Azerbaijan,68.7
+1277,Chang'an University,China,68.7
+1278,Linnaeus University,Sweden,68.7
+1279,National University of Distance Education,Spain,68.7
+1280,Lakehead University,Canada,68.7
+1281,Vellore Institute of Technology,India,68.7
+1282,Bournemouth University,United Kingdom,68.7
+1283,Campus Bio-Medico University,Italy,68.7
+1284,University of Pau and Pays de l'Adour,France,68.7
+1285,Hyogo College of Medicine,Japan,68.7
+1286,State University of Maringá,Brazil,68.7
+1287,University of Almería,Spain,68.7
+1288,Hebei Medical University,China,68.7
+1289,California State University, Fullerton,USA,68.7
+1290,Keimyung University,South Korea,68.7
+1291,Hampton University,USA,68.7
+1292,Xi'an University of Technology,China,68.7
+1293,ESSEC Business School,France,68.6
+1294,California State University, Northridge,USA,68.6
+1295,École des Hautes Études en Sciences Sociales,France,68.6
+1296,Medical University Sofia,Bulgaria,68.6
+1297,Zagazig University,Egypt,68.6
+1298,Brno University of Technology,Czech Republic,68.6
+1299,Showa University,Japan,68.6
+1300,Fukuoka University,Japan,68.6
+1301,National Taiwan Ocean University,Taiwan,68.6
+1302,Heilongjiang University,China,68.6
+1303,Hiroshima Institute of Technology,Japan,68.6
+1304,Atatürk University,Turkey,68.6
+1305,Shanghai University of Traditional Chinese Medicine,China,68.6
+1306,Trent University,Canada,68.6
+1307,Shenyang Pharmaceutical University,China,68.6
+1308,University of Foggia,Italy,68.6
+1309,University of Miyazaki,Japan,68.6
+1310,Chosun University,South Korea,68.6
+1311,Babol Noshirvani University of Technology,Iran,68.6
+1312,Pavol Jozef Šafárik University in Košice,Slovak Republic,68.6
+1313,Rhodes University,South Africa,68.5
+1314,Anhui Normal University,China,68.5
+1315,Fayoum University,Egypt,68.5
+1316,Kurume University,Japan,68.5
+1317,Federal University of Lavras,Brazil,68.5
+1318,Erzincan Binali Yıldırım University,Turkey,68.5
+1319,National University of Science and Technology MISiS,Russia,68.5
+1320,Zhejiang A&F University,China,68.5
+1321,University of Yaoundé I,Cameroon,68.5
+1322,Warsaw University of Life Sciences,Poland,68.5
+1323,Autonomous University of Nuevo León,Mexico,68.5
+1324,Wuhan University of Science and Technology,China,68.5
+1325,Gdańsk University of Technology,Poland,68.5
+1326,Soongsil University,South Korea,68.5
+1327,University of León,Spain,68.5
+1328,Hainan University,China,68.5
+1329,University of Limoges,France,68.5
+1330,Mashhad University of Medical Sciences,Iran,68.5
+1331,National Kaohsiung University of Science and Technology,Taiwan,68.5
+1332,Kuwait University,Kuwait,68.5
+1333,National University of Rosario,Argentina,68.5
+1334,University of Central Lancashire,United Kingdom,68.4
+1335,National Chung Cheng University,Taiwan,68.4
+1336,National Chengchi University,Taiwan,68.4
+1337,Antonio Nariño University,Colombia,68.4
+1338,Coventry University,United Kingdom,68.4
+1339,Uludağ University,Turkey,68.4
+1340,University of Agriculture Faisalabad,Pakistan,68.4
+1341,University of Ghana,Ghana,68.4
+1342,Okinawa Institute of Science and Technology,Japan,68.4
+1343,Southern Cross University,Australia,68.4
+1344,University of Carthage,Tunisia,68.4
+1345,Isfahan University of Medical Sciences,Iran,68.4
+1346,Ontario Tech University,Canada,68.4
+1347,University of Malawi,Malawi,68.4
+1348,Selçuk University,Turkey,68.4
+1349,Oxford Brookes University,United Kingdom,68.4
+1350,Kwansei Gakuin University,Japan,68.4
+1351,Jordan University of Science and Technology,Jordan,68.4
+1352,Democritus University of Thrace,Greece,68.4
+1353,British University in Egypt,Egypt,68.4
+1354,Skolkovo Institute of Science and Technology,Russia,68.4
+1355,Guangxi Normal University,China,68.3
+1356,University of Guadalajara,Mexico,68.3
+1357,Lodz University of Technology,Poland,68.3
+1358,University of Toulouse-Jean Jaurès,France,68.3
+1359,University of Monastir,Tunisia,68.3
+1360,University of Stavanger,Norway,68.3
+1361,Southwest University of Science and Technology,China,68.3
+1362,San Jose State University,USA,68.3
+1363,Singapore Management University,Singapore,68.3
+1364,Western Michigan University,USA,68.3
+1365,University of Greenwich,United Kingdom,68.3
+1366,Changsha University of Science and Technology,China,68.3
+1367,University of South Alabama,USA,68.3
+1368,Institute of Tropical Medicine Antwerp,Belgium,68.3
+1369,Carleton College,USA,68.3
+1370,Shimane University,Japan,68.3
+1371,CY Cergy Paris University,France,68.3
+1372,Istanbul University-Cerrahpaşa,Turkey,68.3
+1373,Indian Institute of Science Education and Research, Kolkata,India,68.3
+1374,University of the Aegean,Greece,68.3
+1375,Nagoya Institute of Technology,Japan,68.3
+1376,University of Perpignan,France,68.3
+1377,University of Costa Rica,Costa Rica,68.2
+1378,Henan Polytechnic University,China,68.2
+1379,Bohai University,China,68.2
+1380,Sultan Qaboos University,Oman,68.2
+1381,Özyeğin University,Turkey,68.2
+1382,National Institute of Technology, Rourkela,India,68.2
+1383,Iran University of Medical Sciences,Iran,68.2
+1384,Southwest Petroleum University,China,68.2
+1385,University of Electro-Communications,Japan,68.2
+1386,University of Santiago, Chile,Chile,68.2
+1387,Feng Chia University,Taiwan,68.2
+1388,Southwestern University of Finance and Economics,China,68.2
+1389,Savitribai Phule Pune University,India,68.2
+1390,University of Reims Champagne-Ardenne,France,68.2
+1391,École de technologie supérieure,Canada,68.2
+1392,Institute for Pure and Applied Mathematics (IMPA),Brazil,68.2
+1393,Grinnell College,USA,68.2
+1394,Williams College,USA,68.2
+1395,Jeju National University,South Korea,68.2
+1396,Royal Veterinary College,United Kingdom,68.2
+1397,Manipal Academy of Higher Education,India,68.2
+1398,Silesian University of Technology,Poland,68.1
+1399,University of the Sunshine Coast,Australia,68.1
+1400,Taras Shevchenko National University of Kyiv,Ukraine,68.1
+1401,California State University, Long Beach,USA,68.1
+1402,China Jiliang University,China,68.1
+1403,University of Occupational and Environmental Health Japan,Japan,68.1
+1404,Cha University,South Korea,68.1
+1405,University of Beira Interior,Portugal,68.1
+1406,Wuhan Institute of Technology,China,68.1
+1407,Akdeniz University,Turkey,68.1
+1408,Xuzhou Medical University,China,68.1
+1409,University of Isfahan,Iran,68.1
+1410,Clarkson University,USA,68.1
+1411,Leuphana University of Lüneburg,Germany,68.1
+1412,Michoacán University of San Nicolás of Hidalgo,Mexico,68.1
+1413,Fairfield University,USA,68.1
+1414,Northwest Normal University,China,68.1
+1415,Xinjiang University,China,68.1
+1416,University of South Africa,South Africa,68.1
+1417,Doshisha University,Japan,68.1
+1418,University of Lethbridge,Canada,68.1
+1419,Pontifical Catholic University of Rio Grande do Sul,Brazil,68.1
+1420,University of South Dakota,USA,68.0
+1421,University of Minnesota Duluth,USA,68.0
+1422,University of Nairobi,Kenya,68.0
+1423,Hanken School of Economics,Finland,68.0
+1424,State University of Londrina,Brazil,68.0
+1425,University of Southern Mississippi,USA,68.0
+1426,Tôn Đức Thắng University,Vietnam,68.0
+1427,Doğuş University,Turkey,68.0
+1428,Liaocheng University,China,68.0
+1429,Baruch College,USA,68.0
+1430,University of Jordan,Jordan,68.0
+1431,Kagawa University,Japan,68.0
+1432,Tianjin University of Science and Technology,China,68.0
+1433,Jiangsu University of Science and Technology,China,68.0
+1434,V.A. Steklov Mathematical Institute of the Russian Academy of Sciences,Russia,68.0
+1435,Fukushima Medical University,Japan,68.0
+1436,Shiga University of Medical Science,Japan,68.0
+1437,Pontifical Catholic University of Valparaíso,Chile,68.0
+1438,University of South China,China,68.0
+1439,University of Huelva,Spain,68.0
+1440,King Saud bin Abdulaziz University for Health Sciences,Saudi Arabia,68.0
+1441,Kwame Nkrumah University of Science and Technology,Ghana,68.0
+1442,Karadeniz Technical University,Turkey,67.9
+1443,Technical University of Ilmenau,Germany,67.9
+1444,Witten/Herdecke University,Germany,67.9
+1445,University of Évora,Portugal,67.9
+1446,Tamkang University,Taiwan,67.9
+1447,Tallinn University of Technology,Estonia,67.9
+1448,Kyoto University of Education,Japan,67.9
+1449,Ilia State University,Georgia,67.9
+1450,Education University of Hong Kong,China,67.9
+1451,Texas Tech University Health Sciences Center,USA,67.9
+1452,Alexandru Ioan Cuza University of Iaşi,Romania,67.9
+1453,Nova Southeastern University,USA,67.9
+1454,University of Caen Normandy,France,67.9
+1455,University of San Francisco,USA,67.9
+1456,National University of Sciences and Technology,Pakistan,67.9
+1457,Freiberg University of Mining and Technology,Germany,67.9
+1458,Henan Agricultural University,China,67.9
+1459,University of Salford,United Kingdom,67.9
+1460,Guglielmo Marconi University,Italy,67.9
+1461,I-Shou University,Taiwan,67.9
+1462,Yuan Ze University,Taiwan,67.9
+1463,National University of Cuyo,Argentina,67.9
+1464,Lincoln University,New Zealand,67.8
+1465,University of Trás-os-Montes and Alto Douro,Portugal,67.8
+1466,University of Veterinary Medicine Hanover,Germany,67.8
+1467,University of La Frontera,Chile,67.8
+1468,Hamburg University of Technology,Germany,67.8
+1469,Sapporo Medical University,Japan,67.8
+1470,Ball State University,USA,67.8
+1471,Anhui University of Technology,China,67.8
+1472,Ochanomizu University,Japan,67.8
+1473,Tanta University,Egypt,67.8
+1474,Arts et Métiers Sciences et Technologies,France,67.8
+1475,South Central University for Nationalities,China,67.8
+1476,Central Michigan University,USA,67.8
+1477,Anglia Ruskin University,United Kingdom,67.8
+1478,University of Lincoln,United Kingdom,67.8
+1479,Federal University of Technology - Paraná,Brazil,67.8
+1480,Institute of Applied Physics of the Russian Academy of Sciences,Russia,67.8
+1481,Kookmin University,South Korea,67.8
+1482,Duy Tân University,Vietnam,67.8
+1483,Illinois State University,USA,67.8
+1484,Myongji University,South Korea,67.8
+1485,Ibaraki University,Japan,67.8
+1486,École nationale vétérinaire d'Alfort,France,67.8
+1487,Shiraz University of Medical Sciences,Iran,67.7
+1488,Zhejiang Gongshang University,China,67.7
+1489,Iuliu Hațieganu University of Medicine and Pharmacy,Romania,67.7
+1490,National Institute of Amazonian Research (INPA),Brazil,67.7
+1491,Texas Christian University,USA,67.7
+1492,National University of the Littoral,Argentina,67.7
+1493,University of Avignon,France,67.7
+1494,University of Tulsa,USA,67.7
+1495,Fırat University,Turkey,67.7
+1496,Maria Curie-Skłodowska University,Poland,67.7
+1497,Montclair State University,USA,67.7
+1498,Incheon National University,South Korea,67.7
+1499,Kyushu Institute of Technology,Japan,67.7
+1500,Pomeranian Medical University in Szczecin,Poland,67.7
+1501,Western Norway University of Applied Sciences,Norway,67.7
+1502,Istanbul Bilgi University,Turkey,67.7
+1503,Hamamatsu University School of Medicine,Japan,67.7
+1504,Shanghai Ocean University,China,67.7
+1505,Chongqing University of Posts and Telecommunications,China,67.7
+1506,University of Guilan,Iran,67.7
+1507,DePaul University,USA,67.7
+1508,University of Sannio,Italy,67.7
+1509,Hebei Normal University,China,67.7
+1510,Seoul National University of Science and Technology,South Korea,67.6
+1511,Poznań University of Technology,Poland,67.6
+1512,Queens College, City University of New York,USA,67.6
+1513,Qingdao Agricultural University,China,67.6
+1514,Utah Valley University,USA,67.6
+1515,Istanbul Aydın University,Turkey,67.6
+1516,Eastern Virginia Medical School,USA,67.6
+1517,Vienna University of Economics and Business,Austria,67.6
+1518,Cayetano Heredia Peruvian University,Peru,67.6
+1519,University of Huddersfield,United Kingdom,67.6
+1520,Indian Institute of Technology (Indian School of Mines), Dhanbad,India,67.6
+1521,Helwan University,Egypt,67.6
+1522,Indian Institute of Technology Indore,India,67.6
+1523,Razi University,Iran,67.6
+1524,Guangzhou University of Chinese Medicine,China,67.6
+1525,Poznań University of Life Sciences,Poland,67.6
+1526,University of Rijeka,Croatia,67.6
+1527,International Islamic University Malaysia,Malaysia,67.6
+1528,Federal Institute of Education, Science and Technology of Rio Grande do Sul,Brazil,67.6
+1529,Indian Institute of Technology (BHU) Varanasi,India,67.6
+1530,Tabriz University of Medical Sciences,Iran,67.6
+1531,Rikkyo University,Japan,67.6
+1532,Federal University of Sergipe,Brazil,67.6
+1533,Wakayama Medical University,Japan,67.5
+1534,Sabancı University,Turkey,67.5
+1535,Medical University of Lublin,Poland,67.5
+1536,University of Guanajuato,Mexico,67.5
+1537,University of Latvia,Latvia,67.5
+1538,Thapar Institute of Engineering and Technology,India,67.5
+1539,N.N. Semenov Institute of Chemical Physics of the Russian Academy of Sciences,Russia,67.5
+1540,Shaanxi University of Science and Technology,China,67.5
+1541,Middlesex University,United Kingdom,67.5
+1542,Shihezi University,China,67.5
+1543,Lobachevsky University,Russia,67.5
+1544,Norwegian School of Sport Sciences,Norway,67.5
+1545,National University of Mar del Plata,Argentina,67.5
+1546,Trinity University,USA,67.5
+1547,Ohio Wesleyan University,USA,67.5
+1548,Guilin University of Electronic Technology,China,67.5
+1549,Pontifical Catholic University of Rio de Janeiro,Brazil,67.5
+1550,Birla Institute of Technology and Science, Pilani,India,67.5
+1551,King Mongkut's University of Technology Thonburi,Thailand,67.5
+1552,North China University of Science and Technology,China,67.5
+1553,Semnan University,Iran,67.5
+1554,Lanzhou University of Technology,China,67.5
+1555,De Montfort University,United Kingdom,67.5
+1556,Shanxi Medical University,China,67.4
+1557,Cooper Union,USA,67.4
+1558,Indian Statistical Institute, Kolkata,India,67.4
+1559,Bu-Ali Sina University,Iran,67.4
+1560,Claremont Graduate University,USA,67.4
+1561,University of Zambia,Zambia,67.4
+1562,Cleveland State University,USA,67.4
+1563,Shanghai Maritime University,China,67.4
+1564,Pontifical Javeriana University,Colombia,67.4
+1565,Inner Mongolia University,China,67.4
+1566,MARA University of Technology,Malaysia,67.4
+1567,Slovak University of Technology in Bratislava,Slovak Republic,67.4
+1568,Tamil Nadu Dr. M.G.R. Medical University,India,67.4
+1569,Anhui Agricultural University,China,67.4
+1570,Sheffield Hallam University,United Kingdom,67.4
+1571,China Three Gorges University,China,67.4
+1572,Yantai University,China,67.4
+1573,Tianjin Normal University,China,67.4
+1574,Pontifical Catholic University of Peru,Peru,67.4
+1575,Beni Suef University,Egypt,67.4
+1576,University of Trier,Germany,67.4
+1577,Iwate Medical University,Japan,67.4
+1578,Al-Azhar University,Egypt,67.4
+1579,Glasgow Caledonian University,United Kingdom,67.4
+1580,University of Niš,Serbia,67.3
+1581,Harokopio University,Greece,67.3
+1582,Indian Institute of Technology Hyderabad,India,67.3
+1583,Georgia Southern University,USA,67.3
+1584,University Paris 1 Panthéon-Sorbonne,France,67.3
+1585,Liaoning University,China,67.3
+1586,Lithuanian University of Health Sciences,Lithuania,67.3
+1587,University of Fukui,Japan,67.3
+1588,Kongju National University,South Korea,67.3
+1589,Kwangwoon University,South Korea,67.3
+1590,National Dong Hwa University,Taiwan,67.3
+1591,Krasnoyarsk Science Center of the Siberian Branch of the Russian Academy of Sciences,Russia,67.3
+1592,Federal Rural University of Pernambuco,Brazil,67.3
+1593,University of Massachusetts Dartmouth,USA,67.3
+1594,University of Agder,Norway,67.3
+1595,Aichi Medical University,Japan,67.3
+1596,Shahid Bahonar University of Kerman,Iran,67.3
+1597,University of Valparaíso,Chile,67.3
+1598,Kunming Medical University,China,67.3
+1599,Brooklyn College,USA,67.3
+1600,University of Peradeniya,Sri Lanka,67.3
+1601,Chengdu University of Technology,China,67.3
+1602,Polytechnic University of Cartagena,Spain,67.3
+1603,Iwate University,Japan,67.3
+1604,Indian Institute of Management Calcutta,India,67.2
+1605,University of Warmia and Mazury in Olsztyn,Poland,67.2
+1606,Shenyang Agricultural University,China,67.2
+1607,North University of China,China,67.2
+1608,Rowan University,USA,67.2
+1609,Wonkwang University,South Korea,67.2
+1610,Ariel University,Israel,67.2
+1611,Sechenov University,Russia,67.2
+1612,Harbin University of Science and Technology,China,67.2
+1613,Medical University of Białystok,Poland,67.2
+1614,National Institute of Technology, Tiruchirappalli,India,67.2
+1615,University of North Carolina Wilmington,USA,67.2
+1616,Gangneung-Wonju National University,South Korea,67.2
+1617,Laurentian University,Canada,67.2
+1618,University of Indonesia,Indonesia,67.2
+1619,Vietnam National University, Ho Chi Minh City,Vietnam,67.2
+1620,Mimar Sinan Fine Arts University,Turkey,67.2
+1621,Nara Medical University,Japan,67.2
+1622,Polytechnic University of Hauts-de-France,France,67.2
+1623,Bharathiar University,India,67.2
+1624,Ondokuz Mayıs University,Turkey,67.2
+1625,Space Research Institute of the Russian Academy of Sciences,Russia,67.2
+1626,Kocaeli University,Turkey,67.2
+1627,Yangtze University,China,67.2
+1628,Western Washington University,USA,67.1
+1629,California State University, Los Angeles,USA,67.1
+1630,University of La Rioja,Spain,67.1
+1631,Nelson Mandela University,South Africa,67.1
+1632,Hunan University of Science and Technology,China,67.1
+1633,University of New Orleans,USA,67.1
+1634,Beijing University of Chinese Medicine,China,67.1
+1635,Peoples' Friendship University of Russia,Russia,67.1
+1636,University of South Wales,United Kingdom,67.1
+1637,Kingston University,United Kingdom,67.1
+1638,Beaux-Arts de Paris,France,67.1
+1639,Grigore T. Popa University of Medicine and Pharmacy,Romania,67.1
+1640,National University of the South,Argentina,67.1
+1641,Irkutsk Scientific Center of the Siberian Branch of the Russian Academy of Sciences,Russia,67.1
+1642,University of Leoben,Austria,67.1
+1643,Tzu Chi University,Taiwan,67.1
+1644,Chapman University,USA,67.1
+1645,University of Kashan,Iran,67.1
+1646,University of Molise,Italy,67.1
+1647,Catholic University of the North,Chile,67.1
+1648,College of Charleston,USA,67.1
+1649,A.M. Prokhorov General Physics Institute of the Russian Academy of Sciences,Russia,67.1
+1650,Jackson State University,USA,67.1
+1651,Southern Federal University,Russia,67.1
+1652,Open University of Catalonia,Spain,67.1
+1653,University of Kragujevac,Serbia,67.0
+1654,Thammasat University,Thailand,67.0
+1655,Kyorin University,Japan,67.0
+1656,Guangdong Medical University,China,67.0
+1657,Changchun University of Science and Technology,China,67.0
+1658,Payame Noor University,Iran,67.0
+1659,Shandong University of Technology,China,67.0
+1660,Estonian University of Life Sciences,Estonia,67.0
+1661,Georgian Technical University,Georgia,67.0
+1662,Agricultural University of Athens,Greece,67.0
+1663,ISCTE – University Institute of Lisbon,Portugal,67.0
+1664,University of Québec at Trois-Rivières,Canada,67.0
+1665,Transilvania University of Brașov,Romania,67.0
+1666,Homi Bhabha National Institute,India,67.0
+1667,Xi'an University of Architecture and Technology,China,67.0
+1668,Yazd University,Iran,67.0
+1669,Central European University,Hungary,67.0
+1670,Comillas Pontifical University,Spain,67.0
+1671,Anadolu University,Turkey,67.0
+1672,James Madison University,USA,67.0
+1673,Naval Postgraduate School,USA,67.0
+1674,University of Westminster,United Kingdom,67.0
+1675,University of Ruhuna,Sri Lanka,67.0
+1676,Akita University,Japan,67.0
+1677,Indian Institute of Technology Bhubaneswar,India,66.9
+1678,Institute for Nuclear Research of the National Academy of Sciences of Ukraine,Ukraine,66.9
+1679,Central Queensland University,Australia,66.9
+1680,Institute of Physics, Polish Academy of Sciences,Poland,66.9
+1681,PLA University of Science and Technology,China,66.9
+1682,University of Jammu,India,66.9
+1683,Menoufia University,Egypt,66.9
+1684,St. John's University,USA,66.9
+1685,Zhejiang Chinese Medical University,China,66.9
+1686,AgroSup Dijon,France,66.9
+1687,Catholic University of Portugal,Portugal,66.9
+1688,University of the West of Scotland,United Kingdom,66.9
+1689,Marshall University,USA,66.9
+1690,Federal University of Rio Grande,Brazil,66.9
+1691,Pontifical Catholic University of Paraná,Brazil,66.9
+1692,Beijing Technology and Business University,China,66.9
+1693,Japan Advanced Institute of Science and Technology,Japan,66.9
+1694,Appalachian State University,USA,66.9
+1695,Oslo Metropolitan University,Norway,66.9
+1696,University of Malta,Malta,66.9
+1697,South Dakota School of Mines and Technology,USA,66.9
+1698,University of Rajasthan,India,66.9
+1699,Amrita Vishwa Vidyapeetham,India,66.9
+1700,University of San Francisco, Quito,Ecuador,66.9
+1701,G.K. Boreskov Institute of Catalysis of the Siberian Branch of the Russian Academy of Sciences,Russia,66.9
+1702,University of Arkansas at Little Rock,USA,66.8
+1703,BI Norwegian Business School,Norway,66.8
+1704,Nanchang Hangkong University,China,66.8
+1705,Hongik University,South Korea,66.8
+1706,Urmia University,Iran,66.8
+1707,University of Gondar,Ethiopia,66.8
+1708,Saint Mary's University,Canada,66.8
+1709,Henan University of Technology,China,66.8
+1710,Jamia Millia Islamia,India,66.8
+1711,University of Cassino and Southern Lazio,Italy,66.8
+1712,Idaho State University,USA,66.8
+1713,Technical University of Crete,Greece,66.8
+1714,Dongguan University of Technology,China,66.8
+1715,New Mexico Institute of Mining and Technology,USA,66.8
+1716,V.M. Glushkov Institute of Cybernetics of the National Academy of Sciences of Ukraine,Ukraine,66.8
+1717,Roskilde University,Denmark,66.8
+1718,Union College,USA,66.8
+1719,Shanghai University of Electric Power,China,66.8
+1720,St. Marianna University School of Medicine,Japan,66.8
+1721,Washington and Lee University,USA,66.8
+1722,Eskişehir Osmangazi University,Turkey,66.8
+1723,Sookmyung Women's University,South Korea,66.8
+1724,Mendel University in Brno,Czech Republic,66.8
+1725,California State University, Sacramento,USA,66.8
+1726,Architectural Association School of Architecture,United Kingdom,66.8
+1727,University of Shizuoka,Japan,66.8
+1728,University of Koblenz-Landau,Germany,66.7
+1729,University of Puerto Rico, Río Piedras Campus,USA,66.7
+1730,Cyprus University of Technology,Cyprus,66.7
+1731,University of South-Eastern Norway,Norway,66.7
+1732,IFP School,France,66.7
+1733,Eulji University,South Korea,66.7
+1734,University of the Philippines Manila,Philippines,66.7
+1735,Federation University Australia,Australia,66.7
+1736,N.N. Bogolyubov Institute for Theoretical Physics of the National Academy of Sciences of Ukraine,Ukraine,66.7
+1737,Diego Portales University,Chile,66.7
+1738,Free University of Bozen-Bolzano,Italy,66.7
+1739,University of La Rochelle,France,66.7
+1740,Kütahya Dumlupınar University,Turkey,66.7
+1741,Kyoto Institute of Technology,Japan,66.7
+1742,Federal University of Mato Grosso,Brazil,66.7
+1743,Oita University,Japan,66.7
+1744,Hamilton College,USA,66.7
+1745,University of Zimbabwe,Zimbabwe,66.7
+1746,Zhengzhou University of Light Industry,China,66.7
+1747,Suranaree University of Technology,Thailand,66.7
+1748,Kansai Medical University,Japan,66.7
+1749,Mae Fah Luang University,Thailand,66.7
+1750,University of Technology of Belfort-Montbéliard,France,66.7
+1751,Hankuk University of Foreign Studies,South Korea,66.7
+1752,Dokkyo Medical University,Japan,66.7
+1753,A.N. Nesmeyanov Institute of Organoelement Compounds of the Russian Academy of Sciences,Russia,66.6
+1754,Yunnan Normal University,China,66.6
+1755,University of Technology of Compiègne,France,66.6
+1756,Düsseldorf Art Academy,Germany,66.6
+1757,University of Sharjah,United Arab Emirates,66.6
+1758,Moscow Conservatory,Russia,66.6
+1759,A.A. Kharkevich Institute for Information Transmission Problems of the Russian Academy of Sciences,Russia,66.6
+1760,Humanitas University,Italy,66.6
+1761,Kanagawa University,Japan,66.6
+1762,East Tennessee State University,USA,66.6
+1763,University of Notre Dame Australia,Australia,66.6
+1764,Ludong University,China,66.6
+1765,China West Normal University,China,66.6
+1766,Hebei Agricultural University,China,66.6
+1767,Sanjay Gandhi Postgraduate Institute of Medical Sciences,India,66.6
+1768,Institut supérieur de l'aéronautique et de l'espace,France,66.6
+1769,Bahçeşehir University,Turkey,66.6
+1770,Central University of Venezuela,Venezuela,66.6
+1771,Zhongnan University of Economics and Law,China,66.6
+1772,Technological Institute of Aeronautics,Brazil,66.6
+1773,European University Institute,Italy,66.6
+1774,Catholic University of Daegu,South Korea,66.6
+1775,Shanghai Institute of Technology,China,66.6
+1776,Meiji University,Japan,66.6
+1777,Guru Nanak Dev University,India,66.6
+1778,Towson University,USA,66.6
+1779,National United University,Taiwan,66.5
+1780,Kennesaw State University,USA,66.5
+1781,Mid Sweden University,Sweden,66.5
+1782,Manisa Celal Bayar University,Turkey,66.5
+1783,Polytechnic Institute of Porto,Portugal,66.5
+1784,Xinjiang Medical University,China,66.5
+1785,University of Peshawar,Pakistan,66.5
+1786,University of Zielona Góra,Poland,66.5
+1787,University of Bialystok,Poland,66.5
+1788,University of Agriculture in Krakow,Poland,66.5
+1789,Federal University of Campina Grande,Brazil,66.5
+1790,Goldsmiths, University of London,United Kingdom,66.5
+1791,University of Mazandaran,Iran,66.5
+1792,King Khalid University,Saudi Arabia,66.5
+1793,Nara Women's University,Japan,66.5
+1794,A.V. Nikolaev Institute of Inorganic Chemistry of the Siberian Branch of the Russian Academy of Sciences,Russia,66.5
+1795,Guilin University of Technology,China,66.5
+1796,Wellesley College,USA,66.5
+1797,Kawasaki Medical School,Japan,66.5
+1798,Xinyang Normal University,China,66.5
+1799,Franklin & Marshall College,USA,66.5
+1800,Tunghai University,Taiwan,66.5
+1801,Sichuan Normal University,China,66.5
+1802,Minia University,Egypt,66.5
+1803,University of the Philippines Diliman,Philippines,66.5
+1804,Federal University of Triângulo Mineiro,Brazil,66.5
+1805,Alfaisal University,Saudi Arabia,66.4
+1806,University of Winnipeg,Canada,66.4
+1807,Pamukkale University,Turkey,66.4
+1808,Chubu University,Japan,66.4
+1809,Institute of Physical Chemistry, Polish Academy of Sciences,Poland,66.4
+1810,Kyoto Sangyo University,Japan,66.4
+1811,Karlstad University,Sweden,66.4
+1812,Kaunas University of Technology,Lithuania,66.4
+1813,Federal University of Ouro Preto,Brazil,66.4
+1814,Xi'an Jiaotong-Liverpool University,China,66.4
+1815,University of Valle,Colombia,66.4
+1816,University of Dhaka,Bangladesh,66.4
+1817,University of Nova Gorica,Slovenia,66.4
+1818,Embry-Riddle Aeronautical University,USA,66.4
+1819,University of Science and Technology Houari Boumediene,Algeria,66.4
+1820,Autonomous University of Sinaloa,Mexico,66.4
+1821,National University of Comahue,Argentina,66.4
+1822,Bahauddin Zakariya University,Pakistan,66.4
+1823,Xinxiang Medical University,China,66.4
+1824,PETRONAS University of Technology,Malaysia,66.4
+1825,Industrial University of Santander,Colombia,66.4
+1826,Taibah University,Saudi Arabia,66.4
+1827,Sakarya University,Turkey,66.4
+1828,Guangdong Pharmaceutical University,China,66.4
+1829,National Defense Medical College,Japan,66.4
+1830,University of Toulon,France,66.4
+1831,University of Burgos,Spain,66.4
+1832,Hamad Bin Khalifa University,Qatar,66.3
+1833,University of Madras,India,66.3
+1834,Wrocław University of Environmental and Life Sciences,Poland,66.3
+1835,University of Alaska Anchorage,USA,66.3
+1836,International University of Health and Welfare,Japan,66.3
+1837,University of Talca,Chile,66.3
+1838,Florida Agricultural and Mechanical University,USA,66.3
+1839,University of the Highlands and Islands,United Kingdom,66.3
+1840,Malmö University,Sweden,66.3
+1841,M.M. Shemyakin and Y.A. Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences,Russia,66.3
+1842,Rajiv Gandhi University of Health Sciences,India,66.3
+1843,Indian Institute of Science Education and Research, Bhopal,India,66.3
+1844,ESCP Europe,France,66.3
+1845,Drew University,USA,66.3
+1846,Central South University of Forestry and Technology,China,66.3
+1847,Bond University,Australia,66.3
+1848,Annamalai University,India,66.3
+1849,Mediterranean University of Reggio Calabria,Italy,66.3
+1850,Osaka Medical College,Japan,66.3
+1851,Federal University of Alagoas,Brazil,66.3
+1852,Near East University,Northern Cyprus,66.3
+1853,Government College University Faisalabad,Pakistan,66.3
+1854,Başkent University,Turkey,66.3
+1855,Far Eastern Federal University,Russia,66.3
+1856,Necmettin Erbakan University,Turkey,66.3
+1857,University of La Réunion,France,66.3
+1858,Institute of Chemical Technology, Mumbai,India,66.3
+1859,IHE Delft Institute for Water Education,Netherlands,66.2
+1860,Interdisciplinary Center Herzliya,Israel,66.2
+1861,University of Nigeria,Nigeria,66.2
+1862,Kettering University,USA,66.2
+1863,Linyi University,China,66.2
+1864,N.D. Zelinsky Institute of Organic Chemistry of the Russian Academy of Sciences,Russia,66.2
+1865,Cracow University of Technology,Poland,66.2
+1866,Benha University,Egypt,66.2
+1867,Le Mans University,France,66.2
+1868,Duquesne University,USA,66.2
+1869,West Pomeranian University of Technology, Szczecin,Poland,66.2
+1870,Mekelle University,Ethiopia,66.2
+1871,Federal Rural University of Rio de Janeiro,Brazil,66.2
+1872,Muhimbili University of Health and Allied Sciences,Tanzania,66.2
+1873,Indian Institute of Technology Gandhinagar,India,66.2
+1874,University of Karachi,Pakistan,66.2
+1875,Hanbat National University,South Korea,66.2
+1876,College of Staten Island,USA,66.2
+1877,Southwest Medical University,China,66.2
+1878,National Yunlin University of Science and Technology,Taiwan,66.2
+1879,University of Northern British Columbia,Canada,66.2
+1880,University of Ostrava,Czech Republic,66.2
+1881,Sohag University,Egypt,66.2
+1882,Institute of Ecology (INECOL),Mexico,66.2
+1883,Technical University of Ostrava,Czech Republic,66.2
+1884,University of Richmond,USA,66.2
+1885,Shiraz University of Technology,Iran,66.2
+1886,University of Kurdistan,Iran,66.1
+1887,Liaoning Normal University,China,66.1
+1888,Jönköping University,Sweden,66.1
+1889,Wichita State University,USA,66.1
+1890,University of Roehampton,United Kingdom,66.1
+1891,Indian Institute of Engineering Science and Technology, Shibpur,India,66.1
+1892,National Changhua University of Education,Taiwan,66.1
+1893,Çağ University,Turkey,66.1
+1894,Liaoning University of Technology,China,66.1
+1895,Gebze Technical University,Turkey,66.1
+1896,Van Yüzüncü Yıl University,Turkey,66.1
+1897,National Chiayi University,Taiwan,66.1
+1898,V.S. Sobolev Institute of Geology and Mineralogy of the Siberian Branch of the Russian Academy of Sciences,Russia,66.1
+1899,Technological University Dublin,Ireland,66.1
+1900,Kanazawa Medical University,Japan,66.1
+1901,Amity University,India,66.1
+1902,University of West Bohemia,Czech Republic,66.1
+1903,Jiaxing University,China,66.1
+1904,Jilin Agricultural University,China,66.1
+1905,Chongqing Technology and Business University,China,66.1
+1906,Edinburgh Napier University,United Kingdom,66.1
+1907,Cheikh Anta Diop University of Dakar,Senegal,66.1
+1908,Rosalind Franklin University of Medicine and Science,USA,66.1
+1909,Federal University of Piauí,Brazil,66.1
+1910,Nagaoka University of Technology,Japan,66.1
+1911,University of Rzeszów,Poland,66.1
+1912,Autonomous University of Chile,Chile,66.1
+1913,Chongqing Normal University,China,66.0
+1914,Aoyama Gakuin University,Japan,66.0
+1915,Kansai University,Japan,66.0
+1916,Tezpur University,India,66.0
+1917,Shanghai University of Engineering Science,China,66.0
+1918,Imam Abdulrahman Bin Faisal University,Saudi Arabia,66.0
+1919,Harbin Normal University,China,66.0
+1920,Sunchon National University,South Korea,66.0
+1921,Kermanshah University of Medical Sciences,Iran,66.0
+1922,Nazarbayev University,Kazakhstan,66.0
+1923,Siberian Federal University,Russia,66.0
+1924,Autonomous University of the State of Morelos,Mexico,66.0
+1925,Clausthal University of Technology,Germany,66.0
+1926,University of Colorado Colorado Springs,USA,66.0
+1927,Ningxia Medical University,China,66.0
+1928,Victor Babeș University of Medicine and Pharmacy, Timișoara,Romania,66.0
+1929,Federal Scientific Research Centre «Crystallography and Photonics» of the Russian Academy of Sciences,Russia,66.0
+1930,Sivas Cumhuriyet University,Turkey,66.0
+1931,Central University of Finance and Economics,China,66.0
+1932,Daegu University,South Korea,66.0
+1933,Çanakkale Onsekiz Mart University,Turkey,66.0
+1934,Graduate School & Training Center, Research Institute of Petroleum Exploration and Development,China,66.0
+1935,University of Djillali Liabès, Sidi Bel-Abbès,Algeria,66.0
+1936,Center for Scientific Research and Higher Education of Ensenada,Mexico,66.0
+1937,Dicle University,Turkey,66.0
+1938,Lebanese University,Lebanon,66.0
+1939,University of San Diego,USA,66.0
+1940,Jimma University,Ethiopia,66.0
+1941,İnönü University,Turkey,65.9
+1942,Gakushuin University,Japan,65.9
+1943,Baqiyatallah University of Medical Sciences,Iran,65.9
+1944,Ss. Cyril and Methodius University in Skopje,North Macedonia,65.9
+1945,Federal University of Amazonas,Brazil,65.9
+1946,University of Québec at Chicoutimi,Canada,65.9
+1947,Indian Institute of Science Education and Research, Thiruvananthapuram,India,65.9
+1948,Hubei University of Technology,China,65.9
+1949,University of Pannonia,Hungary,65.9
+1950,Tshwane University of Technology,South Africa,65.9
+1951,Punjab Agricultural University,India,65.9
+1952,Air Force Engineering University,China,65.9
+1953,Reed College,USA,65.9
+1954,Hanoi University of Science and Technology,Vietnam,65.9
+1955,Leeds Beckett University,United Kingdom,65.9
+1956,Tokyo University of Pharmacy and Life Sciences,Japan,65.9
+1957,Guizhou Medical University,China,65.9
+1958,Northeast Ohio Medical University,USA,65.9
+1959,Josip Juraj Strossmayer University of Osijek,Croatia,65.9
+1960,SRM Institute of Science and Technology,India,65.9
+1961,Dongbei University of Finance and Economics,China,65.9
+1962,University of Bergamo,Italy,65.9
+1963,University of Wolverhampton,United Kingdom,65.9
+1964,Chengdu University of Information Technology,China,65.9
+1965,Ahvaz Jundishapur University of Medical Sciences,Iran,65.9
+1966,B. Verkin Institute for Low Temperature Physics and Engineering of the National Academy of Sciences of Ukraine,Ukraine,65.9
+1967,Reykjavík University,Iceland,65.9
+1968,Jiangxi Agricultural University,China,65.8
+1969,Dalarna University,Sweden,65.8
+1970,Open University of the Netherlands,Netherlands,65.8
+1971,Vilnius Gediminas Technical University,Lithuania,65.8
+1972,University of Veracruz,Mexico,65.8
+1973,Mazandaran University of Medical Sciences,Iran,65.8
+1974,Danube University Krems,Austria,65.8
+1975,Shahrood University of Technology,Iran,65.8
+1976,National University of Tucumán,Argentina,65.8
+1977,University of International Business and Economics,China,65.8
+1978,Institute of Problems of Chemical Physics of the Russian Academy of Sciences,Russia,65.8
+1979,SASTRA,India,65.8
+1980,Pondicherry University,India,65.8
+1981,Sam Houston State University,USA,65.8
+1982,Sophia University,Japan,65.8
+1983,University of Sousse,Tunisia,65.8
+1984,Shanxi Normal University,China,65.8
+1985,National Institute of Mental Health and Neurosciences,India,65.8
+1986,Polytechnic Institute of Bragança,Portugal,65.8
+1987,East China University of Technology,China,65.8
+1988,Shahid Chamran University of Ahvaz,Iran,65.8
+1989,University of Hawaii at Hilo,USA,65.8
+1990,University of North Florida,USA,65.8
+1991,Trinity College,USA,65.8
+1992,Riga Technical University,Latvia,65.8
+1993,Sonoma State University,USA,65.8
+1994,National Institute of Pharmaceutical Education and Research, S.A.S. Nagar,India,65.8
+1995,Gadjah Mada University,Indonesia,65.8
+1996,Santa Catarina State University,Brazil,65.8
+1997,Yancheng Institute of Technology,China,65.7
+1998,Xi'an University of Science and Technology,China,65.7
+1999,CEU San Pablo University,Spain,65.7
+2000,Huzhou University,China,65.7
