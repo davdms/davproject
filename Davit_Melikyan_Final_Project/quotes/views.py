@@ -236,21 +236,22 @@ class MyQuotesListView(ListView):
         account = self.request.user
         info = showuserquotes(account.id, quotename)
 
-        quoteshistory = QuotesHistory.objects.filter(quote=info[0][0]).values('quote', 'quote_text', 'change_date')
+        if info:
+            quoteshistory = QuotesHistory.objects.filter(quote=info[0][0]).values('quote', 'quote_text', 'change_date')
 
-        paginator = Paginator(info, 10)  # Show 10 contacts per page.
+            paginator = Paginator(info, 10)  # Show 10 contacts per page.
 
-        page_number = self.request.GET.get('page')
-        page_obj = paginator.get_page(page_number)
-        tags = gettags(info)
+            page_number = self.request.GET.get('page')
+            page_obj = paginator.get_page(page_number)
+            tags = gettags(info)
 
-        context = {
-            'search_form': MyPageQuoteSearchForm(self.request.GET),
-            'page_obj': page_obj,
-            'quoteshistory': quoteshistory,
-            'tags': tags
-        }
-        return context
+            context = {
+                'search_form': MyPageQuoteSearchForm(self.request.GET),
+                'page_obj': page_obj,
+                'quoteshistory': quoteshistory,
+                'tags': tags
+            }
+            return context
 
 
 # def quote_history_list(request, quoteid):

@@ -17,6 +17,9 @@
             
             <div class="container d-flex justify-content-center mt-12" style="width: 70%;">
             <div class="col mt-12">
+            
+                {% if page_obj.0 %}
+                
             <form action="{% url 'quotes:myquotes_list' %}" method="GET">
 
                 {{ search_form }}
@@ -32,6 +35,8 @@
 
     <div class="container d-flex mt-5" style="width: 70%;">
         <div class="col">
+
+            
             <h3 class="my-5">Your are author as: {{ page_obj.0.3 }}</h3>
             
 
@@ -107,6 +112,12 @@
             {% endif %}
         </span>
                 </div>
+
+                            {% else %}
+
+            <h3 class="my-5">Your are not author !!!</h3>
+
+            {% endif %}
 
 
             <br>
