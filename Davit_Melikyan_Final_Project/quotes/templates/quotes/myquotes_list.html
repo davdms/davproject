@@ -1,0 +1,114 @@
+{% extends "base.html" %}
+
+{% block title %} My Quotes {% endblock%}
+
+{% block content %}
+
+            {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+    <br>
+
+            <div class="col mt-12">
+            <a class="createbutton" href="{% url 'quotes:quote_create' %}" >Add new quote</a>
+        </div>
+
+        <hr>
+            
+            <div class="container d-flex justify-content-center mt-12" style="width: 70%;">
+            <div class="col mt-12">
+            <form action="{% url 'quotes:myquotes_list' %}" method="GET">
+
+                {{ search_form }}
+                <input type="submit" class="btn btn-primary btn-sm" value="Search">
+            </form>
+            </div>
+            </div>
+
+
+    <h1 class="text-center">My Quotes</h1>
+
+        
+
+    <div class="container d-flex mt-5" style="width: 70%;">
+        <div class="col">
+            <h3 class="my-5">Your are author as: {{ page_obj.0.3 }}</h3>
+            
+
+            <table class="table table-striped mt-5">
+                <thead>
+                <tr>
+                    {% comment %} <th>#</th> {% endcomment %}
+                    <th class="text-center" scope="col">Quote</th>
+                    <th class="text-center" scope="col">Added</th>
+                    <th class="text-center" scope="col">Update</th>
+                    <th class="text-center" scope="col">Delete</th>
+                    <th class="text-center" scope="col">Quote history</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for q in page_obj %}
+                    <tr>
+                        <td class="text-center">{{ q.1 }}
+                        <p class="tags"><b>Tags:</b> 
+
+                        {% for tag in tags %}
+
+                        {% if tag.quoteid == q.0 %}
+
+                        {% for t in tag.tags %}
+
+                        {% if t %}
+                        
+                        <button class="mybutton"  type="button">
+                        <a href="{% url 'quotes:tag_quotes_list' tagname=t %}"> {{ t }} </a>
+                        </button>
+                        
+
+                        {% endif %}
+
+                        {% endfor %}
+
+                        {% endif %}
+
+                        {% endfor %}
+
+                        </p>
+                        
+                        </td>
+                        <td class="text-center">{{ q.2|date:"d/m/Y, H:i:s" }}</td>
+                        <td class="text-center"><button class="mybutton"  type="button"><a class="mybutton" href="{% url 'quotes:quote_update' q.0 %}">Update</a></button></td>
+                        <td class="text-center"><button class="mybutton"  type="button"><a class="mybutton" href="{% url 'quotes:quote_delete' q.0 %}">Delete</a></button></td>
+                        <td class="text-center"><button class="mybutton"  type="button"><a class="mybutton" href="{% url 'quotes:quote_history' q.0 %}">History</a></button></td>
+
+
+                    </tr>
+                {% endfor %}
+
+                </tbody>
+            </table>
+
+                <div>
+        <span>
+            {% if page_obj.has_previous %}
+                <a href="?page={{ page_obj.previous_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value }}{% endif %}{% endfor %}">Previous</a>
+            {% endif %}
+            <span>
+                Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+            </span>
+            {% if page_obj.has_next %}
+                <a href="?page=
+
+
+                        {{ page_obj.next_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value }}{% endif %}{% endfor %}">Next</a>
+            {% endif %}
+        </span>
+                </div>
+
+
+            <br>
+        </div>
+{% endblock content %}

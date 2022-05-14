@@ -1,0 +1,50 @@
+ABOUT THE SPECIALTY OF THE PROJECT
+
+1. DEBUG
+In project Settings.
+
+DEBUG = False
+ALLOWED_HOSTS = ["*"]
+
+You can change.
+DEBUG = True
+ALLOWED_HOSTS = []
+
+
+2. DATABASES
+Database is postgresql
+
+In project Settings.
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'webdjango',
+        'USER': 'postgres',
+        'PASSWORD': 'barevp',
+        'HOST': 'localhost',
+        'PORT': '5432',
+
+
+3. EMAIL
+For Registration you are need gmail SMTP configurations for email sending and change less secure apps configuration in your gmail.
+- registration has verification via email
+- API Token gets via email
+
+In project Settings.
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = '*********@gmail.com'
+EMAIL_HOST_PASSWORD = '***********'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+4. REST_FRAMEWORK
+For using API in settings DEFAULT_AUTHENTICATION_CLASSES was set only TokenAuthentication
+
+
+5.
+For scrap and inport information in database you need.
+There is scrap_and_load_quotes.py in quotes>management>commands.
+
+- python manage.py scrap_and_load_quotes
+
+There are also files for only Scrap and save in json and only import db from json 

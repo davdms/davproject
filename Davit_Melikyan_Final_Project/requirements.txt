@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.1
+Django==3.2.10
+django_taggit==3.0.0
+djangorestframework==3.13.1
+requests==2.26.0
+six==1.16.0

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+
+
+{% block title %} API token {% endblock%}
+
+{% block content %}
+    
+        {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+
+
+            <div class="container d-flex mt-5" style="width: 70%;">
+              <div class="col">
+
+            <a class="authorsbutton" href="{% url 'my_auth:profile' %}" >My profile</a>
+
+
+            <hr>
+    <h1 class="text-center">Get API token</h1>
+            <hr>
+
+
+            {% csrf_token %}
+            
+            <p></p>
+            <p class="profile_fullname"> <b>Dear {{ userinfo.first_name }} {{ userinfo.last_name }}, we will send you API token to your email.</b></p>
+            <p class="profile_email"> <b>Your email:</b> {{ userinfo.email }} </p>
+
+            <a class="confirmbutton" href="{% url 'my_auth:api_token_email' token.0 %}" >Send to my email</a>
+
+            <hr>
+
+        </div>
+
+
+            <br>
+
+        </div>
+{% endblock content %}

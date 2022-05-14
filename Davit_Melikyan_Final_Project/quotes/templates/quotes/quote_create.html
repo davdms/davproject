@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %} Create quote {% endblock%}
+
+{% block content %}
+
+    
+        {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+<!--     <script  src = "{% static 'js/script.js' %}"></script> -->
+
+
+
+
+    <form class="quote_create" id="quote_create_form" method="POST" 
+              action="{% url 'quotes:quote_create' %}">
+
+              <div class="col">
+    <h1 class="text-center">Create new quote</h1>
+
+            {% csrf_token %}
+            
+            <div class="quotetextares">
+            <label for="id_quote1"> Type your quote </label>
+            <br>
+            <textarea type="text" id="id_quote" name="quote" value="{{form.quote}}">{{form.quote}}</textarea>
+            </div>
+
+            <br>
+
+            <select class="tagselect" id='id_tags' name="tags" required>
+                <option value="">--Select--</option>
+                {% for tag in tags %}
+                <option value="{{ tag.pk }}">{{ tag.name }}</option>
+                {% endfor %}
+            </select>
+
+                {% for message in messages %}
+                <div class="errormessagescreate">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                <div class="successmessagescreate">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                <div class="successmessagescreate">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.INFO %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                {% endfor %}
+
+                <br><br>
+
+            <input class="createbutton" type="submit" name="Create" value="Create"/>
+
+
+        </form>
+        </div>
+{% endblock content %}

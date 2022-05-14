@@ -1,0 +1,132 @@
+.webfooter {
+  position: fixed;
+  bottom: 0;
+  font-size: 12px;
+  height: 35px;
+  text-align: left;
+  color: black;
+  padding: 10px 0px 3% 0px;
+}
+
+
+.mybutton{
+  border-radius: 10%;
+  background-color: dodgerblue;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.mybutton:hover {
+  background-color: black;
+}
+
+.mybutton a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.errormessages{
+  color: red;
+}
+
+
+.successmessages{
+  color: green;
+}
+
+.errormessagescreate{
+  color: red;
+  margin-left: 20%;
+}
+
+
+.successmessagescreate{
+  color: green;
+  margin-left: 20%;
+}
+
+.quotetextares textarea{
+  width: 50%;
+  height: 150px;
+  padding: 12px 10px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-left: 20%;
+}
+
+.quotetextares label{
+  margin-left: 20%;
+  font-size: 30px;
+}
+
+.tagselect{
+
+    text-align: center;
+    width: 20%;
+    padding: 5px 10px;
+    border: 3px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-left: 35%;
+}
+
+
+.authorsbutton{
+  text-align: center;
+  margin-left: 5%;
+  border-radius: 10%;
+  background-color: dodgerblue;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+}
+
+.createbutton{
+  text-align: center;
+  margin-left: 40%;
+  border-radius: 10%;
+  background-color: dodgerblue;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+}
+
+.createbutton :hover {
+  background-color: black;
+}
+
+.createbutton a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.confirmbutton{
+  border-radius: 10%;
+  margin-top: 2%;
+  margin-left: 40%;
+  background-color: dodgerblue;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+}
+
+.confirmbutton:hover {
+  background-color: black;
+}
+
+.confirmbutton a{
+  color: white;
+  text-decoration: none;
+}

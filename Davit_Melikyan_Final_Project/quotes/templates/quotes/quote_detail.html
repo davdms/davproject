@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container mt-5" style="width: 70%;">
+        <div class="col">
+            <h1 class="text-center">Car Details</h1>
+            <div class="d-flex justify-content-center">
+                <table class="table table-striped mt-5" style="width: 50%">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+                        <td>Name</td>
+                        <td>{{ car.name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Category</td>
+                        <td>{{ car.category }}</td>
+                    </tr>
+                    <tr>
+                        <td>VIN</td>
+                        <td>{{ car.vin }}</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>{{ car.currency }}{{ car.price }}</td>
+                    </tr>
+                    {% if car.author_id %}
+                        <tr>
+                            <td>Author</td>
+                            <td>{{ car.author.username }}</td>
+                        </tr>
+                    {% endif %}
+
+
+                    {% if car.image %}
+                        <tr>
+                            <td>Image</td>
+                            <td><img height="100px" width="auto" src="{{ car.image.url }}"/></td>
+                        </tr>
+                    {% endif %}
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="{% url 'cars:car_list' %}" class="d-block btn btn-primary btn-lg my-5">BACK</a>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock %}

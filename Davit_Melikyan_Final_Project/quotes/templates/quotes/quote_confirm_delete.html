@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %} Quote delete confirm {% endblock%}
+
+{% block content %}
+
+
+    <div class="container d-flex justify-content-center mt-5" style="width: 50%;">
+        <div class="col mt-5 text-center">
+            <h1 class="mb-5">Delete Quote</h1>
+
+            <p class="h5">Are you sure you want to delete this quote ?</p>
+            <h3 class="my-5">Quote: {{ quotes.quote }}</h3>
+            <h3 class="my-5">Author: {{ quotes.author.name }}</h3>
+            <form action="" method="POST">
+                {% csrf_token %}
+                <input type="submit" class="btn btn-primary btn-lg" value="Confirm"
+                       style="margin-right: 30px; margin-top: 30px;">
+                <input type="submit" class="btn btn-danger btn-lg" style="margin-top: 30px;"
+                       onclick="window.location='{% url 'quotes:myquotes_list' %}'; return false;" value="Cancel">
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
