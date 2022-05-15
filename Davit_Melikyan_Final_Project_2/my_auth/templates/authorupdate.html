@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %} Author update {% endblock%}
+
+{% block content %}
+
+
+        {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+
+    <!-- BOOTSTRAP FORM -->
+
+    <div class="container d-flex justify-content-center mt-5" style="width: 25%;">
+        <div class="col mt-5">
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <table class="table">  
+                    
+                    {{ form }}
+                    
+                </table>
+
+
+                {% for message in messages %}
+                <div class="errormessages">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+                {% endfor %}
+
+                <div class="container d-flex justify-content-center" style="width: 10%;">
+                    <input type="submit" class="btn btn-primary btn-lg" value="Submit"
+                           style="margin-right: 30px; margin-top: 30px;">
+                    <input type="submit" class="btn btn-danger btn-lg"  id="cancel_add_car" style="margin-top: 30px;"
+                           onclick="window.location='{% url 'my_auth:profile' %}'; return false;" value="Cancel">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- END BOOTSTRAP FORM -->
+
+{% endblock %}

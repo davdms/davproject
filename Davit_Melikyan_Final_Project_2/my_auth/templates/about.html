@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+
+{% block title %} Profile {% endblock%}
+
+{% block content %}
+    
+        {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+    <h1 class="text-center">About</h1>
+
+    <hr>
+                <div class="container d-flex justify-content-center mt-12" style="width: 70%;">
+            <div class="col mt-12">
+    This website about quotes...
+
+            </div>
+    </div>
+
+{% endblock content %}

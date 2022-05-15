@@ -1,0 +1,1 @@
+document.getElementById('cancel_add_car').onclick = funkcion

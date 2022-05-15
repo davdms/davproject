@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+
+
+{% block title %} Profile {% endblock%}
+
+{% block content %}
+    
+        {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+
+
+            <div class="container d-flex mt-5" style="width: 70%;">
+              <div class="col">
+
+            <a class="authorsbutton" href="{% url 'quotes:myquotes_list' %}" >My quotes</a>
+            <a class="authorsbutton" href="{% url 'my_auth:api_token' %}" >Get API token</a>
+
+
+            <hr>
+    <h1 class="text-center">My profile</h1>
+
+                    {% for message in messages %}
+                <div class="errormessages">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                <div class="successmessages">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                {% endfor %}
+            <hr>
+
+
+            {% csrf_token %}
+            
+            <p></p>
+            <p class="profile_fullname"> <b>Hello {{ form.first_name }} {{ form.last_name }}</b></p>
+            <p class="profile_username"> <b>Username:</b> {{ form.username }} </p>
+            <p class="profile_email"> <b>Email:</b> {{ form.email }} </p>
+            <p class="profile_create"> <b>Account created at:</b> {{ form.date_joined|date:"d/m/Y, H:i:s" }} </p>
+            <a class="confirmbutton" href="{% url 'my_auth:userupdate' user.pk %}" >Change</a>
+
+            
+            {% if author %}
+            <hr>
+            <p class="profile_image"><b>You are author as <i>{{ author.0.name }}</i></b></p>
+
+            {% if author.0.image %}
+            <p class="profile_image"><img height="100px" width="auto" src="/media/{{ author.0.image }}"/></p>
+            {% endif %}
+
+            <a class="confirmbutton" href="{% url 'my_auth:authorupdate' author.0.id %}" >Change</a>
+            {% endif %}
+
+            <hr>
+
+        </div>
+
+
+            <br>
+
+        </div>
+{% endblock content %}

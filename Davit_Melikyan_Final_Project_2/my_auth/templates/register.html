@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>َRegister</title>
+    {% load static %}
+
+    <link rel="stylesheet" href = "{% static 'css/login_register.css' %}">
+
+
+    <body>
+
+    <form class="register_box" id="register-form" method="POST" 
+              action="{% url 'my_auth:register' %}">
+
+    <h1>Register</h1>
+
+            {% csrf_token %}
+            
+
+            <input id="id_username" name="username" placeholder="Username" type="text" value="{{form.username}}">
+
+            <input id="id_email" name="email" placeholder="Email" type="text" value="{{form.email}}">
+
+            <input id="id_username" name="firstname" placeholder="firstname" type="text" value="{{form.firstname}}">
+
+            <input id="id_username" name="lastname" placeholder="lastname" type="text" value="{{form.lastname}}">
+
+            <input id="id_password" name="password1" placeholder="Password" type="password">
+
+            <input id="id_confpassword" name="password2" placeholder="Confirm password" type="password">
+
+
+                {% for message in messages %}
+                <div class="errormessages">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                <div class="successmessages">
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.SUCCESS %}
+                    {{ message }}
+                    {% endif %}
+                </div>
+
+                {% endfor %}
+
+
+            <input type="submit" name="Register" value="Register"/>
+
+            <a href="{% url 'my_auth:login' %}"> Already have an account ? </a>
+
+        </form>
+
+
+      </body>
+
+</html>

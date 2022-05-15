@@ -1,0 +1,97 @@
+{% load static %}
+
+<title>{% block title %}{% endblock %}</title>
+
+<link rel="stylesheet" href = "{% static 'css/pages_style.css' %}">
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/qlogo6.png' %}"/>
+
+    {% block head %}
+    {% endblock head %}
+
+
+
+
+</head>
+
+<body>
+<!-- {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %} -->
+<div class="container-fluid">
+
+    <!-- NAVIGATION BAR -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex justify-content-between px-5 mx-auto" style="width: 80%;">
+
+            <a class="navbar-text text-white"
+               href="{% url 'quotes:quotes_list' %}">
+                   
+                   <img height="80" src="{% static 'img/qlogo5.png' %}">
+
+               </a>
+
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="{% url 'my_auth:about' %}">About us</a>
+                </li>
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'my_auth:profile' %}">{{ user.username }}</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'my_auth:logout' %}">Logout</a>
+
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'my_auth:login' %}">Login</a>
+
+                    </li>
+
+                {% endif %}
+            </ul>
+        </div>
+    
+        <footer></footer>
+<div class="webfooter">
+&copy; Copyright 2022 by DMS
+</div>
+
+    </nav>
+
+    <!-- END OF NAVIGATION BAR -->
+
+</div>
+
+{% block content %}
+{% endblock content %}
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+
+</html>
